@@ -1,0 +1,28 @@
+[{
+  "name": "纹理1",
+  "value": "./static/assets/staticSource/mapImg/source/normal.jpg"
+}, {
+  "name": "纹理2",
+  "value": "./static/assets/staticSource/mapImg/source/black.jpg"
+}, {
+  "name": "纹理3",
+  "value": "./static/assets/staticSource/mapImg/source/colors.jpg"
+}, {
+  "name": "纹理4",
+  "value": "./static/assets/staticSource/mapImg/source/gray.jpg"
+}, {
+  "name": "纹理5",
+  "value": "./static/assets/staticSource/mapImg/source/area.jpg"
+}, {
+  "name": "纹理6",
+  "value": "./static/assets/staticSource/mapImg/source/earth.jpg"
+}, {
+  "name": "纹理7",
+  "value": "./static/assets/staticSource/mapImg/source/earth2.jpg"
+}, {
+  "name": "纹理8",
+  "value": "./static/assets/staticSource/mapImg/source/earthspec.jpg"
+}, {
+  "name": "纹理9",
+  "value": "./static/assets/staticSource/mapImg/source/specular.jpg"
+}]

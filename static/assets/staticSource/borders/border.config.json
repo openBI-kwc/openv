@@ -1,0 +1,99 @@
+[{
+    "top": 32,
+    "right": 37,
+    "bottom": 32,
+    "left": 37,
+    "borderUrl": "./static/assets/staticSource/borders/source/border4.png"
+  },
+  {
+    "top": 14,
+    "right": 100,
+    "bottom": 14,
+    "left": 100,
+    "borderUrl": "./static/assets/staticSource/borders/source/border3.png"
+  },
+  {
+    "top": 46,
+    "right": 305,
+    "bottom": 117,
+    "left": 33,
+    "borderUrl": "./static/assets/staticSource/borders/source/border2.png"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border1.png"
+  },
+  {
+    "top": 32,
+    "right": 37,
+    "bottom": 32,
+    "left": 37,
+    "borderUrl": "./static/assets/staticSource/borders/source/border5.svg"
+  },
+  {
+    "top": 14,
+    "right": 100,
+    "bottom": 14,
+    "left": 100,
+    "borderUrl": "./static/assets/staticSource/borders/source/border6.svg"
+  },
+  {
+    "top": 46,
+    "right": 305,
+    "bottom": 117,
+    "left": 33,
+    "borderUrl": "./static/assets/staticSource/borders/source/border7.svg"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border8.svg"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border9.svg"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border10.svg"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border11.svg"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border12.svg"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border13.png"
+  },
+  {
+    "top": 63,
+    "right": 45,
+    "bottom": 63,
+    "left": 45,
+    "borderUrl": "./static/assets/staticSource/borders/source/border14.png"
+  }
+]

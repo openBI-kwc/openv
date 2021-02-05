@@ -1,0 +1,99 @@
+{
+  "color": [ "#1890FF", "rgba(0,0,0,0)"],
+  "title": {
+    "show": false,
+    "text": "",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "bottom",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14,
+    "formatter": "",
+    "selectedMode": true,
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    }
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "triggerOn": "mousemove",
+    "hideDelay": 100,
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "series": [{
+    "type": "pie",
+    "radius": [
+      "0",
+      "80%"
+    ],
+    "hoverAnimation": false,
+    "selectedMode": "area",
+    "selectedOffset": 30,
+    "roseType": false,
+    "showRoseType": false,
+    "startAngle": 45,
+    "label": {
+      "show": true,
+      "formatter": "{d}%",
+      "fontSize": 12,
+      "position": "inside",
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "align": "auto",
+      "verticalAlign": "auto",
+      "padding": 0
+    },
+    "labelLine": {
+      "smooth": false,
+      "show": true,
+      "length": 30,
+      "length2": 10
+    },
+    "data": []
+  }]
+}

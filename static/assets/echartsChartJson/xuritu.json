@@ -1,0 +1,97 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "旭日图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "visualMap": {
+    "type": "continuous",
+    "calculable": true,
+    "min": 0,
+    "max": 10,
+    "itemWidth": 20,
+    "itemHeight": 140,
+    "textGap": 10,
+    "show": true,
+    "hoverLink": true,
+    "left": 0,
+    "top": "auto",
+    "right": "auto",
+    "orient": "vertical",
+    "backgroundColor": "rgba(0,0,0,0)",
+    "bottom ": 0,
+    "inRange": {
+      "color": [
+        "#00c4da",
+        "#00c4da",
+        "#1185ff",
+        "#103975"
+      ]
+    },
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal"
+    }
+  },
+  "grid": {
+    "show": false,
+    "left": 20,
+    "top": 35,
+    "right": 40,
+    "bottom": 25,
+    "containLabel": true
+  },
+  "series": [{
+    "radius": [
+      "15%",
+      "80%"
+    ],
+    "type": "sunburst",
+    "sort": null,
+    "highlightPolicy": "ancestor",
+    "data": [],
+    "label": {
+      "show":true,
+      "rotate": "radial",
+      "align":"center",
+      "position":"inside",
+      "color":"#fff",
+      "fontStyle":"normal",
+      "fontWeight":"normal",
+      "fontSize":12,
+      "lineHeight":12,
+      "borderRadius":0,
+      "backgroundColor":"rgba(0,0,0,0)"
+    },
+    "itemStyle":{
+      "color": "",
+      "textBorderColor": "#666",
+      "textBorderWidth": 2,
+      "borderColor": "#999",
+      "borderWidth": 1
+    }
+  }]
+}

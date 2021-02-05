@@ -1,0 +1,175 @@
+{
+  "backgroundColor": "",
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "triggerOn": "mousemove",
+    "hideDelay": 100,
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "bottom",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14,
+    "formatter": "",
+    "selectedMode": true,
+    "textStyle": {
+      "color": "#FFF",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "data": [
+      {
+        "name": "海南三亚",
+        "icon": "rect"
+      },
+      {
+        "name": "江苏东台",
+        "icon": "rect"
+      },
+      {
+        "name": "广东惠州",
+        "icon": "rect"
+      },
+      {
+        "name": "北京105厂",
+        "icon": "rect"
+      }
+    ]
+  },
+  "xAxis": {
+    "data": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "axisTick": {
+      "show": false
+    },
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#fff"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "textStyle": {
+        "color": "#fff"
+      },
+      "margin": 20
+    }
+  },
+  "yAxis": {
+    "name": "KWh",
+    "type": "value",
+    "splitLine": {
+      "show": false
+    },
+    "axisTick": {
+      "show": false
+    },
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#fff"
+      }
+    },
+    "axisLabel": {
+      "show": true
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "stack": "stack",
+      "itemStyle": {
+        "color": "rgba(165,195,28,1)",
+        "opacity": 0.6
+      },
+      "silent": true,
+      "barWidth": 60,
+      "data": [
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "type": "pictorialBar",
+      "symbolSize": [
+        60,
+        32
+      ],
+      "symbolOffset": [
+        0,
+        -15
+      ],
+      "symbolPosition": "end",
+      "z": 15,
+      "itemStyle": {
+        "color": "rgba(165,195,28,1)"
+      },
+      "data": [
+        8,
+        10,
+        8,
+        5
+      ]
+    },
+    {
+      "type": "pictorialBar",
+      "symbolSize": [
+        60,
+        25
+      ],
+      "symbolOffset": [
+        0,
+        15
+      ],
+      "z": 16,
+      "itemStyle": {
+        "color": "rgba(165,195,28,1)"
+      },
+      "data": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

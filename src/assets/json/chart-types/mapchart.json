@@ -1,0 +1,332 @@
+[{
+    "comtype": "echarts",
+    "comkey": "zhongguoditu",
+    "name": "中国地图",
+    "width": 1000,
+    "height": 500,
+    "chartData": {},
+    "charttype": "zhongguoditu",
+    "dataOpt": {
+      "map": [
+        [
+          "type",
+          "",
+          "图层类型"
+        ],
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "lng",
+          "",
+          "经度"
+        ],
+        [
+          "lat",
+          "",
+          "纬度"
+        ],
+        [
+          "lng2",
+          "",
+          "经度2",
+          "optional"
+        ],
+        [
+          "lat2",
+          "",
+          "纬度2",
+          "optional"
+        ],
+        [
+          "value",
+          "",
+          "数据值",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "3dzhongguoditu",
+    "name": "3D中国地图",
+    "width": 1000,
+    "height": 500,
+    "chartData": {},
+    "charttype": "3dzhongguoditu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "lng",
+          "",
+          "经度"
+        ],
+        [
+          "lat",
+          "",
+          "纬度"
+        ],
+        [
+          "lng2",
+          "",
+          "经度2",
+          "optional"
+        ],
+        [
+          "lat2",
+          "",
+          "纬度2",
+          "optional"
+        ],
+        [
+          "value",
+          "",
+          "数据值",
+          "optional"
+        ],
+        [
+          "type",
+          "",
+          "图层类型",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "shijieditu",
+    "name": "世界地图",
+    "width": 1000,
+    "height": 500,
+    "chartData": {},
+    "charttype": "shijieditu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "lng",
+          "",
+          "经度"
+        ],
+        [
+          "lat",
+          "",
+          "纬度"
+        ],
+        [
+          "lng2",
+          "",
+          "经度2",
+          "optional"
+        ],
+        [
+          "lat2",
+          "",
+          "纬度2",
+          "optional"
+        ],
+        [
+          "value",
+          "",
+          "数据值",
+          "optional"
+        ],
+        [
+          "type",
+          "",
+          "图层类型",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "3dshijieditu",
+    "name": "3D世界地图",
+    "width": 1000,
+    "height": 500,
+    "chartData": {},
+    "charttype": "3dshijieditu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "lng",
+          "",
+          "经度"
+        ],
+        [
+          "lat",
+          "",
+          "纬度"
+        ],
+        [
+          "alt",
+          "",
+          "海拔"
+        ],
+        [
+          "lng2",
+          "",
+          "经度2",
+          "optional"
+        ],
+        [
+          "lat2",
+          "",
+          "纬度2",
+          "optional"
+        ],
+        [
+          "alt2",
+          "",
+          "海拔2"
+        ],
+        [
+          "value",
+          "",
+          "数据值",
+          "optional"
+        ],
+        [
+          "type",
+          "",
+          "图层类型",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "diqiuyi",
+    "name": "地球仪",
+    "width": 500,
+    "height": 500,
+    "chartData": {},
+    "charttype": "diqiuyi",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "lng",
+          "",
+          "经度"
+        ],
+        [
+          "lat",
+          "",
+          "纬度"
+        ],
+        [
+          "altid",
+          "",
+          "海拔坐标"
+        ],
+        [
+          "lng2",
+          "",
+          "经度2",
+          "optional"
+        ],
+        [
+          "lat2",
+          "",
+          "纬度2",
+          "optional"
+        ],
+        [
+          "altid2",
+          "",
+          "海拔坐标2",
+          "optional"
+        ],
+        [
+          "value",
+          "",
+          "数据值",
+          "optional"
+        ],
+        [
+          "type",
+          "",
+          "图层类型",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "gismap",
+    "name": "地理坐标地图",
+    "width": 1000,
+    "height": 500,
+    "chartData": {},
+    "charttype": "gismap",
+    "dataOpt": {
+      "map": [
+        [
+          "type",
+          "",
+          "图层类型"
+        ],
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "lng",
+          "",
+          "经度"
+        ],
+        [
+          "lat",
+          "",
+          "纬度"
+        ],
+        [
+          "lng2",
+          "",
+          "经度2",
+          "optional"
+        ],
+        [
+          "lat2",
+          "",
+          "纬度2",
+          "optional"
+        ],
+        [
+          "value",
+          "",
+          "数据值",
+          "optional"
+        ]
+      ]
+    }
+  }
+]

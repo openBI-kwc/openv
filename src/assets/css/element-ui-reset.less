@@ -1,0 +1,344 @@
+// 重置样式类
+.reset-style {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+// 通知提示
+.el-notification.left {
+  .left-tips {
+    left: 50%;
+    transform: translate(-50%, 60px);
+    border-radius: 4px;
+
+    h2.el-notification__title {
+      font-size: 16px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .el-notification__content {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .el-notification__closeBtn {
+      color: #fff;
+    }
+  }
+
+  &.info {
+    background: rgba(0, 104, 183, 0.9);
+    border: 1px solid rgba(24, 144, 255, 0.5);
+    .left-tips;
+  }
+
+  &.success {
+    background: rgba(58, 116, 29, 1);
+    border: 1px solid rgba(82, 196, 26, 0.5);
+    .left-tips;
+  }
+
+  &.error {
+    background: rgba(170, 39, 46, 1);
+    border: 1px solid rgba(245, 34, 45, 0.5);
+    .left-tips;
+  }
+
+  &.warning {
+    background: rgba(181, 127, 23, 1);
+    border: 1px solid rgba(248, 172, 21, 0.5);
+    .left-tips;
+  }
+}
+
+// 下拉展开
+.kwc-popper-selection.el-popper.el-select-dropdown {
+  border: none;
+  margin: 0;
+  box-shadow: none;
+  margin-top: 1px !important;
+
+  .el-scrollbar .el-scrollbar__bar,
+  .el-select-dropdown__empty,
+  .popper__arrow {
+    display: none;
+    border: none;
+  }
+
+  &.is-multiple .el-select-dropdown__item {
+    &.selected {
+      background: #002141;
+      color: #1890ff;
+    }
+
+    &.hover {
+      color: #fff;
+      background: #156dbe;
+    }
+
+    &.hover.selected {
+      color: #fff;
+      background: #156dbe;
+    }
+  }
+
+  .el-scrollbar {
+    width: 100%;
+    overflow: auto;
+
+    .el-select-dropdown__wrap {
+      margin: 0 !important;
+      overflow: auto;
+      box-sizing: border-box;
+      border: 1px solid #1890FF;
+      background: #002141;
+      border-top: 0;
+
+      .el-select-dropdown__list {
+        border: 1px solid rgba(24, 144, 255, 1);
+        padding: 0;
+      }
+
+      .el-select-dropdown__item {
+        padding: 0;
+        padding-left: 12px;
+        font-size: 12px;
+        color: #ffffff;
+        border: none;
+
+        &.selected {
+          background: #002141;
+          color: #1890FF;
+        }
+
+        &.hover {
+          color: #fff;
+          background: rgba(21, 109, 190, 1);
+        }
+
+        &:hover {
+          background: rgba(21, 109, 190, 1);
+        }
+      }
+
+      .el-select-dropdown__item:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+// 滑动输入框
+#app .kwc-control.el-slider-control {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  .slider-bar {
+    width: 280px;
+    margin-right: 5px;
+
+    .el-slider__button-wrapper {
+      z-index: 9;
+    }
+  }
+}
+
+// switchbar
+#app .kwc-control.el-switch-control {
+  width: 170px;
+  display: flex;
+  align-items: center;
+
+  .el-switch {
+    height: 30px;
+    line-height: 30px;
+
+    .el-switch__core {
+      background: #31363F;
+    }
+
+    &.is-checked .el-switch__core {
+      background: #409EFF;
+    }
+  }
+}
+
+// 数字输入框
+#app .kwc-control.el-number-control {
+  .el-input-number {
+    .reset-style;
+    width: 100%;
+    height: 30px;
+  }
+
+  .el-input {
+    .reset-style;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    border-bottom: 1px solid rgba(46, 62, 80, 1);
+
+    &:focus-within {
+      border-bottom: 1px solid #219AF2;
+    }
+  }
+
+  .el-input__inner {
+    .reset-style;
+    width: calc(100% - 30px);
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    line-height: 30px;
+  }
+
+  .el-input-number__decrease,
+  .el-input-number__increase {
+    cursor: pointer;
+    width: 30px;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    height: 15px;
+    line-height: 15px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    border: none
+  }
+}
+
+// 自由输入框
+#app .kwc-control.el-text-control {
+  .el-input__inner {
+    .reset-style;
+    display: block;
+    text-indent: 5px;
+    min-width: 50px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #2E3E50;
+    outline: none;
+    color: rgba(255, 255, 255, .8);
+
+    &:focus {
+      border-bottom: 1px solid #219AF2;
+    }
+  }
+}
+
+// 下拉框
+#app .kwc-control.el-selection-control {
+  .el-select {
+    width: 100%;
+    height: 30px;
+    display: block;
+    border-bottom: 1px solid rgba(46, 62, 80, 1);
+
+    &:focus-within {
+      border-bottom: 1px solid #219AF2;
+    }
+  }
+
+  .el-select__tags {
+    transform: none;
+    flex-wrap: nowrap;
+    top: -3px;
+    overflow-x: hidden;
+    margin-right: 5px;
+
+    .el-tag.el-tag--info {
+      background-color: rgba(11, 34, 62, 1);
+
+      .el-tag__close.el-icon-close {
+        background: rgba(0, 0, 0, 0);
+      }
+    }
+  }
+
+  .el-input {
+    .reset-style;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    height: 30px;
+
+    &.is-focus {
+      border: none;
+    }
+
+    .el-input__inner {
+      .reset-style;
+      width: calc(100% - 30px);
+      height: 30px;
+      line-height: 30px;
+      text-indent: 12px;
+      font-size: 12px;
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0);
+    }
+
+    .el-input__suffix {
+      position: static;
+
+      .el-input__suffix-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .el-input__icon {
+        .reset-style;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .el-select-dropdown {
+    position: absolute !important;
+  }
+}
+
+#app .kwc-control.select-by-bg {
+  width: 100% !important;
+  margin-bottom: 20px;
+
+  .el-input {
+    background: #003567;
+    border: 1px solid rgba(0, 71, 157, 0.7);
+
+    input.el-input__inner {
+      text-indent: 12px;
+      color: rgba(255, 255, 255, .8);
+      font-size: 12px;
+    }
+  }
+}
+
+#app .kwc-control.number-by-bg {
+  .el-input {
+    background: #003567;
+    border: 1px solid rgba(0, 71, 157, 0.7);
+
+    &:focus-within {
+      border-bottom: 1px solid rgba(0, 71, 157, 0.7);
+    }
+
+    input.el-input__inner {
+      text-indent: 12px;
+      color: rgba(255, 255, 255, .8);
+      font-size: 12px;
+    }
+  }
+}

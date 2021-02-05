@@ -1,0 +1,96 @@
+{
+  "color": [
+    "rgba(177,103,103,1)",
+    "rgba(29,197,47,0.1)",
+    "rgba(102,150,139,0.6)",
+    "rgba(83,203,225,0.7)",
+    "rgba(172,110,162,0.4)"
+  ],
+  "grid": {
+    "show": false,
+    "left": 20,
+    "top": 35,
+    "right": 40,
+    "bottom": 25,
+    "containLabel": true
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "triggerOn": "mousemove",
+    "hideDelay": 100,
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "title": {
+    "show": false,
+    "text": "",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top"
+  },
+  "series": [{
+    "type": "graph",
+    "left": "center",
+    "top": "middle",
+    "layout": "force",
+    "draggable": true,
+    "symbol": "circle",
+    "cursor": "pointer",
+    "force": {
+      "repulsion": 50,
+      "gravity": 0.01,
+      "edgeLength": 30
+    },
+    "label": {
+      "show": true,
+      "position": "inside",
+      "distance": 0,
+      "color": "rgba(255, 255, 255, 0.8)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "align": "left",
+      "verticalAlign": "top"
+    },
+    "itemStyle": {
+      "shadowBlur": 5,
+      "shadowColor": "rgba(0, 0, 0, 0.5)",
+      "borderWidth": 1,
+      "borderColor": "#333",
+      "opacity": 1
+    },
+    "lineStyle": {
+      "color": "source",
+      "width": 1,
+      "type": "solid",
+      "curveness": 0.3,
+      "opacity": 0.5
+    },
+    "data": [],
+    "categories": [],
+    "links": []
+  }]
+}

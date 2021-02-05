@@ -1,0 +1,99 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "",
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "visualMap": {
+    "show": false,
+    "itemWidth": 15,
+    "itemHeight": 100,
+    "type": "continuous",
+    "calculable": true,
+    "left": "left",
+    "top": "bottom",
+    "min": 0,
+    "max": 200,
+    "realtime": true,
+    "inverse": false,
+    "align": "left",
+    "orient": "vertical",
+    "inRange": {
+      "color": [
+        "#50a3ba",
+        "#eac736",
+        "#ff9900"
+      ]
+    },
+    "textStyle": {
+      "color": "#ffffff",
+      "fontFamily": "sans-serif",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "fontSize": 12
+    }
+  },
+  "geo": {
+    "show": true,
+    "map": "china",
+    "left": "center",
+    "top": "middle",
+    "center": [
+      104,
+      35
+    ],
+    "layoutCenter": [
+      "50%",
+      "50%"
+    ],
+    "zoom": 1,
+    "roam": false,
+    "aspectScale": 1,
+    "itemStyle": {
+      "color": "#2B91B7",
+      "areaColor": "#2B91B7",
+      "borderWidth": 0,
+      "borderType": "solid",
+      "borderColor": "#000"
+    },
+    "label": {
+      "show": true,
+      "color": "#fff",
+      "fontSize": 12,
+      "fontWeight": "normal"
+    }
+  },
+  "series": [
+    {
+      "type": "map",
+      "map": "china",
+      "geoIndex": 0,
+      "aspectScale": 0.75,
+      "coordinateSystem": "geo",
+      "showLegendSymbol": true
+    }
+  ]
+}

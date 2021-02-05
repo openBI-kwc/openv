@@ -1,0 +1,69 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "词云图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "grid": {
+    "show": false,
+    "left": 60,
+    "top": 60,
+    "right": 60,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "tooltip": {
+    "show": true,
+    "showContent": true,
+    "trigger": "item",
+    "position": "inside",
+    "formatter": "{b} : {c}",
+    "showDelay": 20
+  },
+  "series": [{
+    "type": "wordCloud",
+    "name": "",
+    "rotationRange": [-90, 90],
+    "rotationStep": 45,
+    "gridSize": 20,
+    "sizeRange": [12, 50],
+    "center": ["50%", "50%"],
+    "size": "auto",
+    "autoSize": {
+      "enable": true,
+      "minSize": 12
+    },
+    "shape": "circle",
+    "textStyle": {
+      "color": "",
+      "fontFamily": "normal",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal"
+    },
+    "data": []
+  }]
+}

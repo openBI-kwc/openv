@@ -1,0 +1,137 @@
+[{
+    "comtype": "echarts",
+    "comkey": "qipaotu",
+    "name": "气泡图",
+    "width": 400,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "x",
+          "",
+          "X轴值"
+        ],
+        [
+          "y",
+          "",
+          "Y轴值"
+        ],
+        [
+          "r",
+          "",
+          "半径大小",
+          "optional"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "qipaotu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "sandiantu",
+    "name": "散点图",
+    "width": 400,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "x",
+          "",
+          "X轴值"
+        ],
+        [
+          "y",
+          "",
+          "Y轴值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "sandiantu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "sandianzhexiantu",
+    "name": "散点折线图",
+    "width": 400,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "x",
+          "",
+          "X轴值"
+        ],
+        [
+          "y",
+          "",
+          "折线值"
+        ],
+        [
+          "z",
+          "",
+          "散点值"
+        ],
+        [
+          "series",
+          "",
+          "可选系列"
+        ]
+      ]
+    },
+    "charttype": "sandianzhexiantu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "qipaozhexiantu",
+    "name": "气泡折线图",
+    "width": 400,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "x",
+          "",
+          "X轴值"
+        ],
+        [
+          "y",
+          "",
+          "折线值"
+        ],
+        [
+          "r",
+          "",
+          "气泡半径"
+        ],
+        [
+          "z",
+          "",
+          "散点值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "qipaozhexiantu"
+  }
+]

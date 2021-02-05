@@ -1,0 +1,224 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "雷达图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "left": "center",
+    "top": "top"
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "bottom",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "formatter": "",
+    "selectedMode": true,
+    "icon": "circle",
+    "center": 0,
+    "itemWidth": 8,
+    "itemHeight": 8,
+    "textStyle": {
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "color": "#ade3ff"
+    },
+    "data": [
+      "预算分配（Allocated Budget）",
+      "实际开销（Actual Spending）"
+    ]
+  },
+  "radar": {
+    "indicator": [
+      {
+        "text": "盈利能力",
+        "max": 100
+      },
+      {
+        "text": "发展水平",
+        "max": 100
+      },
+      {
+        "text": "融资能力",
+        "max": 100
+      },
+      {
+        "text": "技术能力",
+        "max": 100
+      },
+      {
+        "text": "企业规模",
+        "max": 100
+      }
+    ],
+    "textStyle": {
+      "color": "red"
+    },
+    "center": [
+      "50%",
+      "50%"
+    ],
+    "radius": "80%",
+    "startAngle": 90,
+    "shape": "circle",
+    "backgroundColor": {
+      "image": ""
+    },
+    "splitNumber": 8,
+    "name": {
+      "formatter": "{value}",
+      "show": true,
+      "textStyle": {
+        "fontSize": 14,
+        "color": "#ffffff",
+        "fontStyle": "normal",
+        "fontWeight": "normal"
+      }
+    },
+    "nameGap": 15,
+    "scale": true,
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#2770ab",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#2770ab"
+      }
+    },
+    "splitArea": {
+      "show": true,
+      "areaStyle": {
+        "opacity": 0.3,
+        "color": [
+          "rgba(0,0,0,0)",
+          "rgba(0,0,0,0)",
+          "rgba(114, 172, 209, 0)",
+          "rgba(0,0,0,0)",
+          "rgba(114, 172, 209, 0)"
+        ]
+      }
+    }
+  },
+  "series": [
+    {
+      "name": "雷达图",
+      "type": "radar",
+      "data": [
+        {
+          "name": "园区平均值",
+          "value": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "symbolSize": 2.5,
+          "emphasis": {
+            "lineStyle": {
+              "width": 4
+            }
+          },
+          "itemStyle": {
+            "borderColor": "rgba(245, 166, 35, 1)",
+            "borderWidth": 2.5
+          },
+          "lineStyle": {
+            "width": 1,
+            "opacity": 0.5,
+            "color": "#ffffff"
+          },
+          "areaStyle": {
+            "opacity": 1,
+            "color": "rgba(183, 245, 135, 0.4)"
+          }
+        },
+        {
+          "name": "当前园区",
+          "value": [
+            30,
+            60,
+            55,
+            60,
+            70
+          ],
+          "symbolSize": 2.5,
+          "emphasis": {
+            "lineStyle": {
+              "width": 4
+            }
+          },
+          "itemStyle": {
+            "borderColor": "rgba(245, 166, 35, 1)",
+            "borderWidth": 2.5
+          },
+          "lineStyle": {
+            "width": 1,
+            "opacity": 0.5,
+            "color": "#ffffff"
+          },
+          "areaStyle": {
+            "opacity": 1,
+            "color": "rgba(19, 154, 221, 0.4)"
+          }
+        },
+        {
+          "name": "邻市园区",
+          "value": [
+            50,
+            30,
+            45,
+            80,
+            70
+          ],
+          "symbolSize": 2.5,
+          "emphasis": {
+            "lineStyle": {
+              "width": 4
+            }
+          },
+          "itemStyle": {
+            "borderColor": "rgba(245, 166, 35, 1)",
+            "borderWidth": 2.5
+          },
+          "lineStyle": {
+            "width": 1,
+            "opacity": 0.5,
+            "color": "#ffffff"
+          },
+          "areaStyle": {
+            "opacity": 1,
+            "color": "rgba(19, 154, 221, 0.4)"
+          }
+        }
+      ]
+    }
+  ]
+}

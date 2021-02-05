@@ -1,0 +1,266 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "弧形柱图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "auto",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14,
+    "formatter": "",
+    "selectedMode": true,
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    }
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "triggerOn": "mousemove",
+    "hideDelay": 100,
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "polar": {
+    "center": ["50%", "50%"]
+  },
+  "angleAxis": {
+    "show": false,
+    "scale": false,
+    "splitNumber": 5,
+    "minInterval": 0,
+    "logBase": 10,
+    "silent": false,
+    "triggerEvent": false,
+    "axisLine": {
+      "show": true,
+      "symbol": "none",
+      "symbolSize": [
+        10,
+        15
+      ],
+      "symbolOffset": [
+        0,
+        0
+      ],
+      "lineStyle": {
+        "color": "#333",
+        "width": 1,
+        "type": "solid"
+      }
+    },
+    "axisTick": {
+      "show": true,
+      "alignWithLabel": false,
+      "inside": false,
+      "length": 5,
+      "lineStyle": {
+        "width": 1,
+        "type": "solid"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "inside": false,
+      "rotate": 0,
+      "margin": 8,
+      "formatter": null,
+      "showMinLabel": null,
+      "showMaxLabel": null,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "align": "left",
+      "verticalAlign": "top",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "padding": 0
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "color": [
+          "#ccc"
+        ],
+        "width": 1,
+        "type": "solid"
+      }
+    },
+    "splitArea": {
+      "show": false,
+      "areaStyle": {
+        "color": [
+          "rgba(250,250,250,0.3)",
+          "rgba(200,200,200,0.3)"
+        ]
+      }
+    },
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "label": {
+        "show": false,
+        "precision": "auto",
+        "formatter": null,
+        "margin": 3,
+        "color": "#fff",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 12,
+        "padding": [
+          5,
+          7,
+          5,
+          7
+        ],
+        "backgroundColor": "auto",
+        "borderColor": null,
+        "borderWidth": 0
+      },
+      "lineStyle": {
+        "color": "#555",
+        "width": 1,
+        "type": "solid"
+      },
+      "shadowStyle": {
+        "color": "rgba(150,150,150,0.3)",
+        "shadowOffsetX": 0,
+        "shadowOffsetY": 0
+      },
+      "triggerTooltip": true,
+      "value": null,
+      "status": false,
+      "handle": {
+        "show": false,
+        "size": 45,
+        "margin": 50,
+        "color": "#333",
+        "throttle": 40
+      }
+    },
+    "zlevel": 0,
+    "z": 0
+  },
+  "radiusAxis": {
+    "show": true,
+    "polarIndex": 0,
+    "type": "category",
+    "nameLocation": "end",
+    "minInterval": 0,
+    "silent": false,
+    "nameTextStyle": {
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "align": "left",
+      "verticalAlign": "start"
+    },
+    "axisLabel": {
+      "show": true,
+      "inside": false,
+      "rotate": 0,
+      "interval": 0,
+      "margin": 28,
+      "color": "#ffffff",
+      "formatter": null,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": 12,
+      "align": "left",
+      "verticalAlign": "center"
+    },
+    "data": [
+      "张三",
+      "李四",
+      "王五",
+      "赵六"
+    ]
+  },
+  "series": [
+    {
+      "type": "bar",
+      "coordinateSystem": "polar",
+      "xAxisIndex": 0,
+      "yAxisIndex": 0,
+      "label": {
+        "show": true,
+        "position": [
+          0,
+          0
+        ],
+        "distance": 5,
+        "color": "#fff",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 12,
+        "align": "left",
+        "verticalAlign": "top"
+      },
+      "itemStyle": {
+        "color": "#1890FF"
+      },
+      "stack": null,
+      "cursor": "pointer",
+      "data": [
+        188,
+        250,
+        438,
+        8848
+      ]
+    }
+  ]
+}

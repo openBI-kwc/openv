@@ -1,0 +1,621 @@
+[
+  {
+    "comtype": "tool",
+    "comkey": "lunbobiaoge",
+    "name": "轮播表格",
+    "width": 930,
+    "height": 300,
+    "chartData": {
+      "tooldata": {},
+      "theadstyle": {
+        "fontSize": 18,
+        "color": "#ccc",
+        "backgroundColor": "#0E2A43",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "height": 50
+      },
+      "tbodystyle": {
+        "fontSize": 18,
+        "color": "#ccc",
+        "singleBg": "#0E2A43",
+        "doubleBg": "#0E2A43",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "swipConf": {
+        "mode": "pixel",
+        "swipTime": 100
+      }
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "label",
+          "",
+          "数据分类"
+        ],
+        [
+          "data",
+          "",
+          "数据值"
+        ],
+        [
+          "row",
+          "",
+          "行号"
+        ]
+      ]
+    },
+    "charttype": "lunbobiaoge"
+  },
+  {
+    "charttype": "biaoti",
+    "comtype": "tool",
+    "comkey": "biaoti",
+    "name": "标题",
+    "width": 100,
+    "height": 50,
+    "chartData": {
+      "text": "标题内容",
+      "style": {
+        "fontSize": 20,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "textColor": {
+          "type": "danse",
+          "color": "rgba(0,0,0,1)"
+        }
+      }
+    }
+  },
+  {
+    "comtype": "tool",
+    "comkey": "shijian",
+    "name": "时间",
+    "width": 350,
+    "height": 45,
+    "chartData": {
+      "iconfontSize": 20,
+      "iconColor": "#ffffff",
+      "iconRight": 0,
+      "fontSize": 30,
+      "color": "#ffffff",
+      "allDate": true,
+      "fontFamily": "Microsoft YaHei",
+      "fontWeight": "normal",
+      "justifyContent": "center",
+      "alignItems": "center"
+    },
+    "charttype": "shijian"
+  },
+  {
+    "comtype": "tool",
+    "comkey": "wangye",
+    "name": "网页",
+    "width": 600,
+    "height": 600,
+    "chartData": {
+      "tooldata": ""
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "iframeUrl",
+          "",
+          "网页地址"
+        ]
+      ]
+    },
+    "charttype": "wangye"
+  },
+  {
+    "comtype": "tool",
+    "comkey": "lunbotu",
+    "name": "轮播图",
+    "width": 600,
+    "height": 400,
+    "chartData": {
+      "tooldata": [],
+      "desclist": [],
+      "options": {
+        "autoplay": 1500,
+        "loop": true,
+        "effect": "slide"
+      },
+      "style": {
+        "fontSize": 20,
+        "lineHeight": 50,
+        "color": "#ffffff",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0,0,0,0)",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "textColor": "#ccc",
+        "width": 100,
+        "height": 10,
+        "left": 0,
+        "top": 0,
+        "pause": 1000
+      }
+    },
+    "charttype": "lunbotu",
+    "dataOpt": {
+      "map": [
+        [
+          "imgurl",
+          "",
+          "图片地址"
+        ],
+        [
+          "desc",
+          "",
+          "图片描述",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "tool",
+    "charttype": "fuwenben",
+    "comkey": "fuwenben",
+    "name": "富文本",
+    "width": 300,
+    "height": 300,
+    "chartData": {
+      "data": "富文本"
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "richtext",
+          "",
+          "内容"
+        ]
+      ]
+    }
+  },
+  {
+    "charttype": "shipinbofangqi",
+    "comtype": "tool",
+    "comkey": "shipinbofangqi",
+    "name": "视频播放器",
+    "width": 200,
+    "height": 220,
+    "chartData": {
+      "playsinline": false,
+      "start": 0,
+      "playerOptions": {
+        "playbackRate": 1,
+        "autoplay": true,
+        "loop": true,
+        "controls": true,
+        "muted": true,
+        "poster": "",
+        "sources": [
+          {
+            "type": "video/mp4",
+            "src": "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "comtype": "tool",
+    "comkey": "jishuban",
+    "name": "边框计数板",
+    "charttype": "jishuban",
+    "width": 400,
+    "height": 120,
+    "chartData": {
+      "data": 5,
+      "useBorder": true,
+      "borderStyle": {
+        "borderType": "./static/assets/img/borders/b1.png",
+        "borderWidth": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "opacity": 100
+      },
+      "textStyle": {
+        "fontSize": 40,
+        "color": "#ffffff",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      }
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "coutnum",
+          "",
+          "计数板值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "tool",
+    "comkey": "jishuban2",
+    "name": "渐变计数板",
+    "width": 400,
+    "height": 120,
+    "chartData": {
+      "data": 5,
+      "textStyle": {
+        "name": "销售数据",
+        "fontSize": 18,
+        "color": "#00B4F7",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "sumStyle": {
+        "fontSize": 20,
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "format": true
+      }
+    },
+    "charttype": "jishubanpro",
+    "dataOpt": {
+      "map": [
+        [
+          "coutnum",
+          "",
+          "计数板值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "tool",
+    "comkey": "duoxingwenben",
+    "name": "多行文本",
+    "width": 400,
+    "height": 200,
+    "chartData": {
+      "tooldata": "北京开维创科技有限公司是一家集系统集成、维保（续保）等于一体的专业化IT服务商。公司拥有全系列思科产品线和庞大的全国备件库网络，并运用完善、高效的服务技术体系来满足不同地区不同客户的各种需求。公司业务涉及网络基础设施建设咨询、设计、设备支持（设备提供、调试）等专业化系统维护服务，并且长期向思科的各级代理商，IDC机房数据中心，系统集成商及各中小企业网络机房提供最好的备件服务。",
+      "style": {
+        "fontSize": 20,
+        "lineHeight": 50,
+        "color": "#ffffff",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff0",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "textIndent": 2,
+        "animation": false,
+        "time": 3
+      },
+      "link": null,
+      "marquee": false
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "text",
+          "",
+          "段落内容"
+        ]
+      ]
+    },
+    "charttype": "duoxingwenben"
+  },
+  {
+    "comtype": "tool",
+    "comkey": "paomadeng",
+    "name": "跑马灯",
+    "width": 200,
+    "height": 50,
+    "chartData": {
+      "data": "北京开维创科技有限公司是一家集系统集成、维保（续保）等于一体的专业化IT服务商。",
+      "speed": 30,
+      "style": {
+        "fontSize": 20,
+        "color": "#ffffff",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "hexLink": {
+        "open": false,
+        "link": "",
+        "target": "_self"
+      }
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "divertext",
+          "",
+          "内容"
+        ]
+      ]
+    },
+    "charttype": "paomadeng"
+  },
+  {
+    "charttype": "chaolianjie",
+    "comtype": "tool",
+    "comkey": "chaolianjie",
+    "name": "超链接",
+    "width": 200,
+    "height": 50,
+    "chartData": {
+      "text": "北京开维创",
+      "link": "http://www.kwcnet.com/",
+      "target": "_self",
+      "marquee": false,
+      "scrollamount": 6,
+      "hoverColor": "",
+      "underline": true,
+      "style": {
+        "fontSize": 14,
+        "color": "#ffffff",
+        "background": "",
+        "justifyContent": "center",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      }
+    }
+  },
+  {
+    "comtype": "tool",
+    "comkey": "jindutiao",
+    "name": "进度条",
+    "width": 800,
+    "height": 35,
+    "chartData": {
+      "tooldata": 20,
+      "total": 100,
+      "style": {
+        "fontSize": 20,
+        "lineHeight": 50,
+        "color": "#EB1919",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#fff0",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "margin": 0,
+        "bottom": 0
+      },
+      "link": null,
+      "marquee": false
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "prognum",
+          "",
+          "当前值"
+        ]
+      ]
+    },
+    "charttype": "jindutiao"
+  },
+  {
+    "comtype": "tool",
+    "comkey": "biaoge",
+    "name": "表格",
+    "width": 930,
+    "height": 300,
+    "chartData": {
+      "tooldata": {},
+      "theadstyle": {
+        "fontSize": 18,
+        "color": "#ccc",
+        "backgroundColor": "#0E2A43",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "height": 50
+      },
+      "tbodystyle": {
+        "fontSize": 18,
+        "color": "#ccc",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "singleBg": "#0E2A43",
+        "doubleBg": "#0E2A43"
+      }
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "label",
+          "",
+          "数据分类"
+        ],
+        [
+          "data",
+          "",
+          "数据值"
+        ],
+        [
+          "row",
+          "",
+          "行号"
+        ]
+      ]
+    },
+    "charttype": "biaoge"
+  },
+  {
+    "comtype": "tool",
+    "comkey": "huanxingjindutiao",
+    "name": "环形进度条",
+    "width": 500,
+    "height": 200,
+    "chartData": {
+      "tooldata": 50,
+      "total": 100,
+      "decimal": 2,
+      "style": {
+        "fontSize": 20,
+        "lineHeight": 50,
+        "color": "#25E616",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "margin": 0,
+        "bottom": 0
+      },
+      "ringStyle": [
+        {
+          "colorTypes": "danse",
+          "singlecolor": "rgba(0, 206, 209, 1)",
+          "doublecolor": [
+            "rgba(0,0,0,0)",
+            "rgba(0,0,0,0)"
+          ]
+        },
+        {
+          "colorTypes": "gradient",
+          "singlecolor": "rgba(0,0,0,0)",
+          "doublecolor": [
+            "rgba(255, 69, 0, 1)",
+            "yellow"
+          ]
+        }
+      ],
+      "link": null,
+      "marquee": false
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "prognum",
+          "",
+          "当前值"
+        ]
+      ]
+    },
+    "charttype": "huanxingjindutiao"
+  },
+  {
+    "comtype": "tool",
+    "comkey": "jindutiaoxingma",
+    "name": "进度条形码",
+    "width": 600,
+    "height": 400,
+    "chartData": {
+      "title": "进度条形码",
+      "titleStyle": {
+        "fontSize": 60,
+        "color": "#ffffff",
+        "lineHeight": 50,
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "nameStyle": {
+        "fontSize": 40,
+        "lineHeight": 50,
+        "color": "#ffffff",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal",
+        "vertical": "top"
+      },
+      "valueStyle": {
+        "fontSize": 50,
+        "lineHeight": 50,
+        "color": "#25E616",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "iconStyle": {
+        "leftColor": "#25E616",
+        "bottomColor": "rgba(0, 0, 0, 0.2)",
+        "fontSize": 60
+      },
+      "name": "海南三亚",
+      "value": "50%"
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ]
+      ]
+    },
+    "charttype": "jindutiaoxingma"
+  },
+  {
+    "comtype": "tool",
+    "comkey": "3dzhuzhuangqushibianhuatu",
+    "name": "3d柱状趋势变化图",
+    "width": 600,
+    "height": 400,
+    "chartData": {
+      "title": "阿勒泰",
+      "titleStyle": {
+        "fontSize": 40,
+        "color": "#ffffff",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "value": 160,
+      "valueStyle": {
+        "fontSize": 30,
+        "color": "#ffffff",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "percent": "60%",
+      "percentStyle": {
+        "fontSize": 30,
+        "color": "#ffffff",
+        "fontFamily": "Microsoft YaHei",
+        "fontWeight": "normal"
+      },
+      "standard": 100,
+      "innerStyle": {
+        "leftbg": "rgba(250, 226, 8, 0.2)",
+        "topbg": "rgba(250, 226, 8, 0.4)",
+        "rightbg": "rgba(250, 226, 8, 0.6)",
+        "shadowColor": "rgba(63, 216, 16, 0.6)"
+      }
+    },
+    "dataOpt": {
+      "map": [
+        [
+          "title",
+          "",
+          "数据名称"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ],
+        [
+          "percent",
+          "",
+          "提升率"
+        ],
+        [
+          "standard",
+          "",
+          "标准值"
+        ]
+      ]
+    },
+    "charttype": "3dzhuzhuangqushibianhuatu"
+  }
+]

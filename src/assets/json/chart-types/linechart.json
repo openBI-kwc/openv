@@ -1,0 +1,187 @@
+[{
+    "comtype": "echarts",
+    "comkey": "jibenzhexiantu",
+    "name": "基本折线图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "jibenzhexiantu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "quyutu",
+    "name": "区域图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "quyutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "quyufanpaiqi",
+    "name": "区域翻牌器",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "quyufanpaiqi"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "shuangzhouzhexiantu",
+    "name": "双轴折线图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "y轴1值"
+        ],
+        [
+          "value2",
+          "",
+          "y轴2值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "shuangzhouzhexiantu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "3dzhexiantu",
+    "name": "三维折线图",
+    "width": 500,
+    "height": 300,
+    "chartData": {},
+    "charttype": "3dzhexiantu",
+    "dataOpt": {
+      "map": [
+        [
+          "xdata",
+          "",
+          "X轴数据"
+        ],
+        [
+          "ydata",
+          "",
+          "y轴数据"
+        ],
+        [
+          "value",
+          "",
+          "数值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "xuxianzhexiantu",
+    "name": "虚线折线图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "xuxianzhexiantu",
+    "islock": false,
+    "ishide": false
+  }
+]

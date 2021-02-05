@@ -1,0 +1,90 @@
+[{
+    "charttype": "tupian",
+    "comtype": "material",
+    "comkey": "tupian",
+    "name": "图片",
+    "width": 300,
+    "height": 300,
+    "chartData": {
+      "url": "",
+      "style": {
+        "rotate": "0deg",
+        "backgroundSize": "100% 100%",
+        "opacity": 10
+      }
+    }
+  },
+  {
+    "charttype": "icon",
+    "comtype": "material",
+    "comkey": "icon",
+    "name": "图标",
+    "width": 40,
+    "height": 40,
+    "chartData": {
+      "hoverText": "",
+      "openURL": false,
+      "link": "",
+      "target": "_self",
+      "textPos": "top",
+      "rotate": "fa-rotate-normal",
+      "iconObj": {
+        "iconClass": "fa-line-chart",
+        "animation": false,
+        "animationType": "linear",
+        "style": {
+          "fontSize": 16,
+          "color": "#ffffff"
+        }
+      }
+    }
+  },
+  {
+    "comtype": "material",
+    "comkey": "biankuang",
+    "name": "边框",
+    "width": 300,
+    "height": 300,
+    "chartData": {
+      "opacity": 100,
+      "borderUrl": "./static/assets/img/borders/b1.png",
+      "borderWidth": [20, 20, 20, 20],
+      "borderStretch": "fill"
+    },
+    "charttype": "biankuang"
+  },
+  {
+    "comtype": "material",
+    "comkey": "xiantiao",
+    "name": "线条",
+    "width": 300,
+    "height": 50,
+    "chartData": {
+      "opacity": 10,
+      "rotate": 0,
+      "lineUrl": "./static/assets/staticSource/lines/source/white.gif",
+      "weight": 2
+    },
+    "charttype": "xiantiao"
+  },
+  {
+    "comtype": "material",
+    "comkey": "zhixian",
+    "name": "直线",
+    "width": 450,
+    "height": 10,
+    "chartData": {
+      "fontSize": 20,
+      "deg": 0,
+      "lineHeight": 6,
+      "opacity": 10,
+      "background": "rgba(36, 231, 22, 1)",
+      "borderColor": "#FFFFFF",
+      "showTopBorder": false,
+      "showRightBorder": false,
+      "showBottomBorder": false,
+      "showLeftBorder": false
+    },
+    "charttype": "zhixian"
+  }
+]

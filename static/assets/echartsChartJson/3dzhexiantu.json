@@ -1,0 +1,270 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "tooltip": {
+    "show": false,
+    "trigger": "item",
+    "axisPointer": {
+      "type": "line",
+      "axis": "auto",
+      "label": {
+        "show": false,
+        "precision": "auto",
+        "formatter": null,
+        "margin": 3,
+        "color": "#fff",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 12,
+        "padding": [
+          5,
+          7,
+          5,
+          7
+        ],
+        "backgroundColor": "auto",
+        "borderColor": null,
+        "borderWidth": 0
+      },
+      "lineStyle": {
+        "color": "#555",
+        "width": 1,
+        "type": "solid"
+      },
+      "shadowStyle": {
+        "color": "rgba(150,150,150,0.3)"
+      },
+      "crossStyle": {
+        "color": "#555",
+        "width": 1,
+        "type": "dashed"
+      }
+    },
+    "showContent": true,
+    "alwaysShowContent": false,
+    "triggerOn": "mousemove|click",
+    "showDelay": 0,
+    "hideDelay": 100,
+    "enterable": false,
+    "renderMode": "html",
+    "confine": false,
+    "transitionDuration": 0.4,
+    "position": [
+      10,
+      10
+    ],
+    "formatter": "{b}: {c}",
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "color": [
+    "#49b8f2",
+    "#de808f",
+    "#a08bcd",
+    "green",
+    "#FFF68F",
+    "#FF7F24",
+    "#D8BFD8"
+  ],
+  "visualMap": {
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12
+    },
+    "show": true,
+    "max": 10,
+    "min": 0,
+    "itemWidth": 15,
+    "itemHeight": 100,
+    "text": ["High", "Low"],
+    "inRange": {
+      "color": [
+        "#313695",
+        "#4575b4",
+        "#74add1",
+        "#abd9e9",
+        "#e0f3f8",
+        "#ffffbf",
+        "#fee090",
+        "#fdae61",
+        "#f46d43",
+        "#d73027",
+        "#a50026"
+      ]
+    }
+  },
+  "xAxis3D": {
+    "axisPointer": {
+      "show": false
+    },
+    "type": "value",
+    "name": "时间",
+    "min": 0,
+    "max": 1440,
+    "nameGap":20,
+    "show": true,
+    "axisLabel": {
+      "show": true,
+      "fontFamily": "微软雅黑",
+      "margin": 10,
+      "fontSize": 12
+    },
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontSize": 12,
+      "fontFamily": "sans-serif",
+      "fontWeight": "normal"
+    },
+    "axisLine": {
+      "show": true
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    }
+  },
+  "yAxis3D": {
+    "axisPointer": {
+      "show": true
+    },
+    "type": "value",
+    "min": 0,
+    "max": 24,
+    "nameGap": 20,
+    "name": "里程",
+    "show": true,
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontSize": 12,
+      "fontFamily":"sans-serif",
+      "fontWeight":"normal"
+    },
+    "axisLine": {
+      "show": true
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "color": "#ccc",
+      "formatter": null,
+      "fontSize": 12
+    }
+  },
+  "zAxis3D": {
+    "fontWeight": "normal",
+    "type": "value",
+    "name": "截面流量",
+    "show": true,
+    "nameGap": 20,
+    "axisPointer": {
+      "show": false
+    },
+     "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontSize": 12,
+      "fontFamily":"sans-serif",
+      "fontWeight":"normal"
+    },
+    "axisLine": {
+      "show": true
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "color": "#ccc",
+      "formatter": null,
+      "fontSize": 12
+    }
+  },
+  "grid3D": {
+    "boxWidth": 120,
+    "boxHeight": 120,
+    "boxDepth": 120,
+    "axisTick": {
+      "show": false
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#ccc",
+        "width": 1
+      }
+    },
+    "axisLabel": {
+      "textStyle": {
+        "color": "#000",
+        "fontSize": 14
+      }
+    },
+    "light": {
+      "main": {
+        "intensity": 1.2,
+        "shadow": true
+      },
+      "ambient": {
+        "intensity": 0.7,
+        "shadow": true
+      }
+    },
+    "viewControl": {
+      "alpha": 15,
+      "beta": 40,
+      "autoRotate": true,
+      "zoomSensitivity": 0,
+      "autoRotateAfterStill": 5,
+      "distance": 250
+    }
+  },
+  "series": [
+    {
+      "type": "line3D",
+      "name": "K1+500",
+      "data": [],
+      "lineStyle": {
+        "opacity": 1,
+        "width": 2
+      }
+    },
+    {
+      "type": "line3D",
+      "name": "K4+000",
+      "data": [],
+      "lineStyle": {
+        "opacity": 1,
+        "width": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="./static/assets/img/favicon.ico" />
+  <!-- 字符集的设定 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- 语言设置 -->
+  <meta http-equiv="Content-Language" content="zh-cn" />
+  <!--meta缓存-->
+  <meta http-equiv="Cache-Control" content="public">
+  <!-- 指定是否显示图片工具栏，当为false代表不显示，当为true代表显示。  -->
+  <meta http-equiv="imagetoolbar" content="true" />
+  <!-- W3C网页规范，指明页面中脚本的类型。  -->
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+  <!--相同的网址不考虑用户浏览器UA-->
+  <meta name="applicable-device" content="pc" />
+  <!--适配屏幕大小-->
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!--是否删除默认的苹果工具栏和菜单栏-->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- 网页版权作者信息  -->
+  <meta name="author" content="北京开维创科技有限公司">
+  <!--页面描述-->
+  <meta name="description" content="大数据可视化" />
+  <!--页面关键词-->
+  <meta name="keywords" content="大数据|可视化|大数据可视化|开维创" />
+  <!-- 全局导入 -->
+  <link rel="stylesheet" href="./static/assets/css/index.css">
+  <link rel="stylesheet" href="./static/assets/css/font-face.css">
+  <link rel="stylesheet" href="./static/assets/css/element-ui.css">
+  <script src="http://api.map.baidu.com/api?v=2.0&ak=5nyoBYfENREqmSNsOu2VkGvkRfrpPLMi"></script>
+  <!-- 服务器下载css文件 -->
+  <% htmlWebpackPlugin.options.cdnConfig.forEach(function(item){ if(item.css){ %>
+    <link rel="stylesheet" href="<%= item.css %>"/>
+  <% }}) %>
+  <!-- 服务器下载js文件 -->
+  <% htmlWebpackPlugin.options.cdnConfig.forEach(function(item){ if(item.js){ %>
+    <script type="text/javascript" src="<%= item.js %>"></script>
+  <% }}) %>
+  <script src="./static/assets/js/lazyload.js"></script>
+  <title>页面跳转中......</title>
+</head>
+<body>
+  <!--[if lt IE 9]>
+    <strong>
+      您的浏览器版本太低，无法解析程序，请升级后重试！
+    </strong>loading
+  <![endif]-->
+  <noscript>
+    <strong>
+      您的浏览器不支持Javascript脚本解释器，请升级后重试！
+    </strong>
+  </noscript>
+  <div id="app">
+    <div id="page-loading">
+      <div class="page-top-loading-bar"></div>
+      <div class="page-loading-content">
+        <h2>页面跳转中......</h2>
+        <div>
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

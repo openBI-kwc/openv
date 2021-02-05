@@ -1,0 +1,25 @@
+# Project ignore files and dir
+.DS_Store
+node_modules/
+CloudVisualization/
+dist/
+static/data
+/src/views/testModule/
+package-lock.json
+npm-debug.log*
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+!.gitignore
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.idea
+desktop.ini
+Thumbs.db
+*.zip
+yarn*
+.vscode/

@@ -1,0 +1,122 @@
+{
+  "title": {
+    "show": true,
+    "text": "年度利用小时排名",
+    "textStyle": {
+      "color": "#FEFEFE",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 16,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 7,
+    "itemGap": 10,
+    "left": "center",
+    "top": "5%",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "xAxis": {
+    "show": false
+  },
+  "yAxis": [{
+    "show": true,
+    "data": [
+      "海南三亚",
+      "江苏东台",
+      "广东惠州",
+      "北京105厂"
+    ],
+    "inverse": true,
+    "axisLine": {
+      "show": false
+    },
+    "splitLine": {
+      "show": false
+    },
+    "axisTick": {
+      "show": false
+    },
+    "axisLabel": {
+      "show": true,
+      "textStyle": {
+        "color": "#fff",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 12
+      }
+    }
+  }],
+  "grid": {
+    "show": false,
+    "left": 30,
+    "right": 30,
+    "bottom": 30,
+    "top": 30,
+    "containLabel": true
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "triggerOn": "mousemove",
+    "hideDelay": 100,
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "formatter": "{b}:{c}",
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "series": [{
+      "type": "bar",
+      "yAxisIndex": 0,
+      "data": [
+        663,
+        234,
+        234,
+        523
+      ],
+      "label": {
+        "show": true,
+        "position": "right",
+        "color": "#fff",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 16
+      },
+      "barWidth": 10,
+      "itemStyle": {
+        "barBorderRadius": 10,
+        "color": "rgba(60,233,249,1)"
+      }
+    },
+    {
+      "type": "scatter",
+      "yAxisIndex": 0,
+      "data": [
+        663,
+        234,
+        234,
+        523
+      ],
+      "symbolSize": 20,
+      "itemStyle": {
+        "color": "rgba(60,233,249,1)",
+        "shadowColor": "rgba(255,255,255,1)",
+        "shadowBlur": 5
+      }
+    }
+  ]
+}

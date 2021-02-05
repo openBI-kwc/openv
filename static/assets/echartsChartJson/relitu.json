@@ -1,0 +1,184 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "grid": {
+    "show": false,
+    "left": 50,
+    "right": 50,
+    "top": 50,
+    "bottom": 30,
+    "containLabel": true
+  },
+  "title": {
+    "show": false,
+    "text": "热力图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "formatter": "{b}: {c}"
+  },
+  "xAxis": {
+    "name": "x轴",
+    "show": true,
+    "type": "category",
+    "position": "bottom",
+    "offset": 0,
+    "nameLocation": "end",
+    "nameGap": 15,
+    "nameRotate": 0,
+    "inverse": false,
+    "boundaryGap": true,
+    "data": [],
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "axisLine": {
+      "show": true,
+      "onZero": false,
+      "lineStyle": {
+        "width": 1,
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "splitLine": {
+      "show": false,
+      "lineStyle": {
+        "width": 1,
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "axisTick": {
+      "show": true,
+      "alignWithLabel": true,
+      "length": 6
+    },
+    "axisLabel": {
+      "show": true,
+      "inside": false,
+      "margin": 10,
+      "color": "#ccc",
+      "fontSize": 12,
+      "formatter": null,
+      "rotate": 40
+    }
+  },
+  "yAxis": [{
+    "name": "y轴",
+    "show": true,
+    "type": "category",
+    "data": [],
+    "position": "left",
+    "offset": 0,
+    "nameLocation": "end",
+    "nameGap": 15,
+    "nameRotate": 0,
+    "inverse": false,
+    "boundaryGap": true,
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "axisLine": {
+      "show": true,
+      "onZero": false,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "splitLine": {
+      "show": false,
+      "lineStyle": {
+        "width": 1,
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "axisTick": {
+      "show": true,
+      "alignWithLabel": true,
+      "length": 6
+    },
+    "axisLabel": {
+      "show": true,
+      "inside": false,
+      "rotate": 40,
+      "margin": 10,
+      "color": "#ccc",
+      "fontSize": 12,
+      "formatter": null
+    }
+  }],
+  "visualMap": {
+    "itemWidth": 15,
+    "itemHeight": 30,
+    "type": "continuous",
+    "calculable": true,
+    "min": 0,
+    "max": 200,
+    "text": ["High", "Low"],
+    "show": true,
+    "left": "left",
+    "top": "bottom",
+    "orient": "vertical",
+    "inRange": {
+      "color": ["#fec42c", "#80F1BE"]
+    },
+    "textStyle": {
+      "color": "#fff"
+    }
+  },
+  "series": [{
+    "type": "heatmap",
+    "name": "热力图",
+    "label": {
+      "show": true,
+      "position": "inside",
+      "color": "#fff",
+      "fontSize": 12
+    },
+    "emphasis": {
+      "itemStyle": {
+        "shadowBlur": 10,
+        "shadowColor": "rgba(120, 0, 0, 0.5)"
+      }
+    },
+    "itemStyle": {
+      "color": ""
+    },
+    "data": []
+  }]
+}

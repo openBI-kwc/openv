@@ -1,0 +1,11 @@
+/build/
+/config/
+/openv/
+/src/public/
+/src/apis/
+/src/router/
+/src/store/
+/src/views/testModule/
+/static/
+/src/*.js
+/*.js

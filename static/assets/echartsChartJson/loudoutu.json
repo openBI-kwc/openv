@@ -1,0 +1,105 @@
+{
+  "color": ["#9BCDFB", "#7DB9F4", "#63ADEB", "#3D83F7", "#2F5296", "#1C3871"],
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "tooltip": {
+    "trigger": "item",
+    "formatter": "{a} <br/>{b} : {c}%"
+  },
+  "grid": {
+    "show": false,
+    "left": 20,
+    "top": 35,
+    "right": 40,
+    "bottom": 25,
+    "containLabel": true
+  },
+  "title": {
+    "show": false,
+    "text": "漏斗图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "bottom",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14,
+    "formatter": "",
+    "selectedMode": true,
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "data": []
+  },
+  "calculable": true,
+  "series": [{
+    "type": "funnel",
+    "min": 0,
+    "max": 100,
+    "left": 20,
+    "top": 35,
+    "right": 40,
+    "bottom": 25,
+    "name": "",
+    "sort": "descending",
+    "funnelAlign": "center",
+    "minSize": 10,
+    "gap": 10,
+    "label": {
+      "show": true,
+      "position": "center",
+      "formatter": "{b}: {d}%",
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": 10,
+      "align": "center",
+      "verticalAlign": "middle"
+    },
+    "labelLine": {
+      "smooth": false,
+      "show": false,
+      "length": 10,
+      "length2": 10,
+      "lineStyle": {
+        "color": "#000"
+      }
+    },
+    "data": []
+  }]
+}

@@ -1,0 +1,194 @@
+{
+  "color": ["#1890FF", "#64D985"],
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "分组柱图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "grid": {
+    "show": false,
+    "left": 60,
+    "top": 60,
+    "right": 60,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "bottom",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14,
+    "formatter": "",
+    "selectedMode": true,
+    "textStyle": {
+      "color": "#FFF",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    }
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "triggerOn": "mousemove",
+    "hideDelay": 100,
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "yAxis": [{
+    "name": "y轴",
+    "show": true,
+    "type": "category",
+    "position": "bottom",
+    "offset": 0,
+    "nameLocation": "end",
+    "nameGap": 15,
+    "nameRotate": 0,
+    "inverse": false,
+    "boundaryGap": true,
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "axisLine": {
+      "show": true,
+      "onZero": false,
+      
+      
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)",
+        "type": "solid"
+      }
+    },
+    "splitLine": {
+      "show": false,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)",
+        "type": "solid"
+      }
+    },
+    "axisTick": {
+      "show": true,
+      "alignWithLabel": true,
+      "length": 6
+    },
+    "axisLabel": {
+      "show": true,
+      "inside": false,
+      "rotate": 0,
+      "margin": 10,
+      "color": "#ccc",
+      "fontWeight": "normal",
+      "fontSize": 12,
+      "formatter": null
+    },
+    "data": []
+  }],
+  "xAxis": {
+    "name": "x轴",
+    "show": true,
+    "type": "value",
+    "position": "bottom",
+    "offset": 0,
+    "nameLocation": "end",
+    "nameGap": 15,
+    "nameRotate": 0,
+    "inverse": false,
+    "boundaryGap": true,
+    
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "axisLine": {
+      "show": true,
+      "onZero": false,
+      
+      
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)",
+        "type": "solid"
+      }
+    },
+    "splitLine": {
+      "show": false,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)",
+        "type": "solid"
+      }
+    },
+    "axisTick": {
+      "show": true,
+      "alignWithLabel": true,
+      "length": 6
+    },
+    "axisLabel": {
+      "show": true,
+      "inside": false,
+      "rotate": 0,
+      "margin": 10,
+      "color": "#ccc",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "formatter": null
+    },
+    "data": []
+  },
+  "series": []
+}

@@ -1,0 +1,64 @@
+{
+  "title": {
+    "show": false,
+    "text": "",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "visualMap": {
+    "itemWidth": 15,
+    "itemHeight": 100,
+    "max": 200,
+    "min": 0,
+    "type": "continuous",
+    "calculable": true,
+    "text": ["High", "Low"],
+    "show": true,
+    "left": "left",
+    "top": "bottom",
+    "orient": "vertical",
+    "inRange": {
+      "color": ["#fec42c", "#80F1BE"]
+    },
+    "textStyle": {
+      "color": "#fff"
+    }
+  },
+  "geo": {
+    "show": true,
+    "map": "world",
+    "left": "center",
+    "top": "middle",
+    "zoom": 1,
+    "roam": true,
+    "aspectScale": 1,
+    "center": [0, 15],
+    "itemStyle": {
+      "color": "#2B91B7",
+      "borderColor": "#3B5077"
+    },
+    "label": {
+      "show": true,
+      "position": "inside",
+      "color": "#ccc",
+      "fontSize": 12,
+      "fontWeight": "normal"
+    }
+  },
+  "series": []
+}

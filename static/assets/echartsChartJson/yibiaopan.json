@@ -1,0 +1,106 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "仪表盘",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "formatter": "{a} <br/>{b} : {c}%",
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "series": [{
+    "name": "业务指标",
+    "type": "gauge",
+    "startAngle": 225,
+    "endAngle": -45,
+    "clockwise": true,
+    "min": 0,
+    "max": 120,
+    "splitNumber": 6,
+    "radius": "80%",
+    "animation": true,
+    "axisLine": {
+      "lineStyle": {
+        "width": 10
+      }
+    },
+    "splitLine": {
+      "length": 20,
+      "lineStyle": {
+        "color": "rgba(0,0,0,0)"
+      }
+    },
+    "axisTick": {
+      "length": 15,
+      "lineStyle": {
+        "color": "rgba(0,0,0,0)"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "backgroundColor": "",
+      "borderRadius": 2,
+      "color": "#eee",
+      "padding": 3,
+      "textShadowBlur": 2,
+      "textShadowOffsetX": 1,
+      "textShadowOffsetY": 1,
+      "textShadowColor": "#222",
+      "distance": 10,
+      "fontSize": 12
+    },
+    "pointer": {
+      "show": true,
+      "length": "90%",
+      "width": 8
+    },
+    "itemStyle": {
+      "color": "#f90"
+    },
+    "title": {
+      "show": true,
+      "fontWeight": "bolder",
+      "fontSize": 20,
+      "color": "rgba(111, 153, 170, 1)"
+    },
+    "data": [],
+    "detail": {
+      "show": true,
+      "fontWeight": "bolder",
+      "fontSize": 20,
+      "backgroundColor": "",
+      "color": ""
+    }
+  }]
+}

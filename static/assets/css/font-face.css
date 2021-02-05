@@ -1,0 +1,15 @@
+/* FONT PATH
+ * -------------------------- */
+/* iconfont */
+@font-face {
+  font-family: 'iconfont';
+  src: url('fonts/iconfont.ttf');
+  src: url('fonts/iconfont.ttf') format('truetype');
+}
+
+/* 自定义字体 */
+@font-face {
+  font-family: 'kwcfont';
+  src: url('fonts/kwcfont.ttf');
+  src: url('fonts/kwcfont.ttf') format('truetype');
+}

@@ -1,0 +1,28 @@
+{
+  "bmap": {
+    "center": [120.13066322374, 30.240018034923],
+    "zoom": 3,
+    "roam": true,
+    "mapStyle": {}
+  },
+  "visualMap": {
+    "itemWidth": 15,
+    "itemHeight": 100,
+    "min": 0,
+    "max": 200,
+    "type": "continuous",
+    "calculable": true,
+    "text": ["High", "Low"],
+    "show": true,
+    "left": "left",
+    "top": "bottom",
+    "orient": "vertical",
+    "inRange": {
+      "color": ["#fec42c", "#80F1BE"]
+    },
+    "textStyle": {
+      "color": "#fff"
+    }
+  },
+  "series": []
+}

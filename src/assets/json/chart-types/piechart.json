@@ -1,0 +1,283 @@
+[{
+    "comtype": "echarts",
+    "charttype": "biaozhuduibibingtu",
+    "comkey": "biaozhuduibibingtu",
+    "name": "标注对比饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "daitubingtu",
+    "comkey": "daitubingtu",
+    "name": "带图饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "danzhibaifenbibingtu",
+    "comkey": "danzhibaifenbibingtu",
+    "name": "单值百分比饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "total",
+          "",
+          "目标值"
+        ],
+        [
+          "value",
+          "",
+          "当前值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "duoweidubingtu",
+    "comkey": "duoweidubingtu",
+    "name": "多维度饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "jibenbingtu",
+    "comkey": "jibenbingtu",
+    "name": "基本饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "huanshanbingtu",
+    "comkey": "huanshanbingtu",
+    "name": "环扇饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "lunbobingtu",
+    "comkey": "lunbobingtu",
+    "name": "轮播饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "mubiaozhanbibingtu",
+    "comkey": "mubiaozhanbibingtu",
+    "name": "目标占比饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "total",
+          "",
+          "总计值"
+        ],
+        [
+          "value",
+          "",
+          "当前值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "zhibiaoduibibingtu",
+    "comkey": "zhibiaoduibibingtu",
+    "name": "指标对比饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "zhibiaozhanbibingtu",
+    "comkey": "zhibiaozhanbibingtu",
+    "name": "指标占比饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "total",
+          "",
+          "总计值"
+        ],
+        [
+          "value",
+          "",
+          "当前值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "baifenbiduibibintu",
+    "comkey": "baifenbiduibibintu",
+    "name": "百分比对比饼图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "total",
+          "",
+          "总计值"
+        ],
+        [
+          "value",
+          "",
+          "当前值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "charttype": "huanzhuangfaguangzhanbitu",
+    "comkey": "huanzhuangfaguangzhanbitu",
+    "name": "环状发光占比图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "title": {
+    "show": false,
+    "text": "",
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "tooltip": {
+    "trigger": "item",
+    "backgroundColor": "#1540a1",
+    "borderColor": "#FFFFCC",
+    "showDelay": 0,
+    "hideDelay": 0,
+    "enterable": true,
+    "transitionDuration": 0,
+    "extraCssText": "z-index:100"
+  },
+  "visualMap": {
+    "show": true,
+    "itemWidth": 15,
+    "itemHeight": 100,
+    "type": "continuous",
+    "min": 0,
+    "max": 200,
+    "calculable": true,
+    "left": "left",
+    "top": "bottom",
+    "realtime": true,
+    "inverse": false,
+    "align": "left",
+    "orient": "vertical",
+    "inRange": {
+      "color": [
+        "#50a3ba",
+        "#eac736",
+        "#ff9900"
+      ]
+    },
+    "textStyle": {
+      "color": "#ffffff",
+      "fontFamily": "sans-serif",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "fontSize": 12
+    }
+  },
+  "geo3D": {
+    "show": true,
+    "map": "world",
+    "itemStyle": {
+      "color": "rgba(25, 214, 208, 1)",
+      "borderWidth": 1,
+      "borderType": "solid",
+      "borderColor": "rgb(62,215,213)"
+    },
+    "label": {
+      "show": true,
+      "textStyle": {
+        "color": "rgba(211, 128, 80, 1)",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 20
+      }
+    }
+  },
+  "series": []
+}

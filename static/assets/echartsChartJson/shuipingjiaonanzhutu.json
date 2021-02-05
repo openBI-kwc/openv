@@ -1,0 +1,277 @@
+{
+  "color": ["#3C79CD", "#376BB1", "#72B87E", "#9E4552"],
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "水平胶囊柱图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "bottom",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14,
+    "formatter": "",
+    "selectedMode": true,
+    "textStyle": {
+      "color": "#FFF",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "data": []
+  },
+  "tooltip": {
+    "show": true,
+    "trigger": "item",
+    "triggerOn": "mousemove",
+    "hideDelay": 100,
+    "backgroundColor": "rgba(50,50,50,0.7)",
+    "borderColor": "#333",
+    "borderWidth": 0,
+    "padding": 5,
+    "textStyle": {
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 14
+    }
+  },
+  "grid": {
+    "show": false,
+    "left": 60,
+    "top": 60,
+    "right": 60,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "name": "x轴",
+    "show": true,
+    "type": "value",
+    "position": "bottom",
+    "offset": 0,
+    "nameLocation": "end",
+    "nameGap": 15,
+    "nameRotate": 0,
+    "inverse": false,
+    "boundaryGap": true,
+    
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "axisLine": {
+      "show": true,
+      "onZero": false,
+      
+      
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)",
+        "type": "solid"
+      }
+    },
+    "splitLine": {
+      "show": false,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)",
+        "type": "solid"
+      }
+    },
+    "axisTick": {
+      "show": true,
+      "alignWithLabel": true,
+      "length": 6
+    },
+    "axisLabel": {
+      "show": true,
+      "inside": false,
+      "rotate": 0,
+      "margin": 10,
+      "color": "#ccc",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "formatter": null
+    },
+    "data": []
+  },
+  "yAxis": [
+    {
+      "name": "y轴",
+      "show": true,
+      "type": "category",
+      "position": "left",
+      "offset": 0,
+      "nameLocation": "end",
+      "nameGap": 15,
+      "nameRotate": 0,
+      "inverse": false,
+      "boundaryGap": true,
+      "data": [],
+      "nameTextStyle": {
+        "color": "rgba(255,255,255,0.6)",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "padding": 0
+      },
+      "axisLine": {
+        "show": true,
+        "onZero": false,
+        
+        
+        "lineStyle": {
+          "width": "1",
+          "color": "rgba(255,255,255,0.4)",
+          "type": "solid"
+        }
+      },
+      "splitLine": {
+        "show": false,
+        "lineStyle": {
+          "width": "1",
+          "color": "rgba(255,255,255,0.4)",
+          "type": "solid"
+        }
+      },
+      "axisTick": {
+        "show": true,
+        "alignWithLabel": true,
+        "length": 6
+      },
+      "axisLabel": {
+        "show": true,
+        "inside": false,
+        "rotate": 0,
+        "margin": 10,
+        "color": "#ccc",
+        "fontSize": 12,
+        "fontWeight": "normal",
+        "formatter": null
+      }
+    }
+  ],
+  "series": [{
+    "type": "bar",
+    "name": "系列一",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "stack": "default",
+    "barWidth": "auto",
+    "barMaxWidth": "50%",
+    "barGap": 0,
+    "barCategoryGap": "20%",
+    "large": true,
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}"
+    },
+    "itemStyle": {
+      "color": ""
+    },
+    "data": [20, 20, 20, 20, 20, 20, 20, 20, 10]
+  }, {
+    "type": "bar",
+    "name": "系列二",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "stack": "default",
+    "barWidth": "auto",
+    "barMaxWidth": "50%",
+    "barGap": 0,
+    "barCategoryGap": "20%",
+    "large": true,
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}"
+    },
+    "itemStyle": {
+      "color": ""
+    },
+    "data": [40, 40, 40, 40, 40, 40, 40, 40, 30]
+  }, {
+    "type": "bar",
+    "name": "系列三",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "stack": "default",
+    "barWidth": "auto",
+    "barMaxWidth": "50%",
+    "barGap": 0,
+    "barCategoryGap": "20%",
+    "large": true,
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}"
+    },
+    "itemStyle": {
+      "color": ""
+    },
+    "data": []
+  }, {
+    "type": "bar",
+    "name": "系列四",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "stack": "default",
+    "barWidth": "auto",
+    "barMaxWidth": "50%",
+    "barGap": 0,
+    "barCategoryGap": "20%",
+    "large": true,
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}"
+    },
+    "itemStyle": {
+      "color": ""
+    },
+    "data": []
+  }]
+}

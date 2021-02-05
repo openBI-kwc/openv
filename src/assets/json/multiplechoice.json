@@ -1,0 +1,548 @@
+{
+  "shapeList": [
+    {
+      "name": "circle",
+      "value": "circle"
+    },
+    {
+      "name": "rect",
+      "value": "rect"
+    },
+    {
+      "name": "roundRect",
+      "value": "roundRect"
+    },
+    {
+      "name": "triangle",
+      "value": "triangle"
+    },
+    {
+      "name": "diamond",
+      "value": "diamond"
+    },
+    {
+      "name": "pin",
+      "value": "pin"
+    },
+    {
+      "name": "arrow",
+      "value": "arrow"
+    }
+  ],
+  "radershap": [
+    {
+      "name": "circle",
+      "value": "circle"
+    },
+    {
+      "name": "polygon",
+      "value": "polygon"
+    }
+  ],
+  "sort": [
+    {
+      "name": "不排序",
+      "value": "null"
+    },
+    {
+      "name": "升序",
+      "value": "asc"
+    },
+    {
+      "name": "降序",
+      "value": "desc"
+    }
+  ],
+  "fontWeight": [
+    {
+      "value": "lighter",
+      "name": "细体"
+    },
+    {
+      "value": "normal",
+      "name": "正常"
+    },
+    {
+      "value": "bolder",
+      "name": "粗体"
+    }
+  ],
+  "fontStyle": [
+    {
+      "value": "normal",
+      "text": "正常"
+    },
+    {
+      "value": "italic",
+      "text": "斜体"
+    }
+  ],
+  "fontFamily": [
+    {
+      "value": "Microsoft YaHei",
+      "name": "微软雅黑"
+    },
+    {
+      "name": "7段符",
+      "value": "kwcfont"
+    },
+    {
+      "value": "SimHei",
+      "name": "黑体"
+    },
+    {
+      "value": "SimSun",
+      "name": "宋体"
+    },
+    {
+      "value": "NSimSun",
+      "name": "新宋体"
+    },
+    {
+      "value": "FangSong",
+      "name": "仿宋"
+    },
+    {
+      "value": "KaiTi",
+      "name": "楷体"
+    },
+    {
+      "value": "FangSong_GB2312",
+      "name": "仿宋_GB2312"
+    },
+    {
+      "value": "KaiTi_GB2312",
+      "name": "楷体_GB2312"
+    },
+    {
+      "name": "Sans Serif",
+      "value": "sans-serif"
+    },
+    {
+      "value": "PmingLiu",
+      "name": "PmingLiu"
+    },
+    {
+      "value": "Impact",
+      "name": "Impact"
+    },
+    {
+      "value": "Georgia",
+      "name": "Georgia"
+    },
+    {
+      "value": "Tahoma",
+      "name": "Tahoma"
+    },
+    {
+      "value": "Arial",
+      "name": "Arial"
+    },
+    {
+      "value": "Book Antiqua",
+      "name": "Book Antiqua"
+    },
+    {
+      "value": "Century Gothic",
+      "name": "Century Gothic"
+    },
+    {
+      "value": "Courier New",
+      "name": "Courier New"
+    },
+    {
+      "value": "Times New Roman",
+      "name": "Times New Roman"
+    },
+    {
+      "value": "Verdana",
+      "name": "Verdana"
+    }
+  ],
+  "verticalAlign": [
+    {
+      "value": "top",
+      "name": "上"
+    },
+    {
+      "value": "middle",
+      "name": "中"
+    },
+    {
+      "value": "bottom",
+      "name": "下"
+    }
+  ],
+  "tree": [
+    {
+      "value": "top",
+      "name": "上"
+    },
+    {
+      "value": "inside",
+      "name": "中"
+    },
+    {
+      "value": "bottom",
+      "name": "下"
+    }
+  ],
+  "triggerType": [
+    {
+      "value": "item",
+      "name": "图形触发"
+    },
+    {
+      "value": "axis",
+      "name": "坐标轴触发"
+    },
+    {
+      "value": "none",
+      "name": "不触发"
+    }
+  ],
+  "triggerOnType": [
+    {
+      "value": "mousemove",
+      "name": "移动触发"
+    },
+    {
+      "value": "click",
+      "name": "点击触发"
+    },
+    {
+      "value": "mousemove|click",
+      "name": "同时移动和点击触发"
+    },
+    {
+      "value": "none",
+      "name": "不触发"
+    }
+  ],
+  "positionList": [
+    {
+      "name": "顶部",
+      "value": "top"
+    },
+    {
+      "name": "左侧",
+      "value": "left"
+    },
+    {
+      "name": "右侧",
+      "value": "right"
+    },
+    {
+      "name": "底部",
+      "value": "bottom"
+    },
+    {
+      "name": "内部",
+      "value": "inside"
+    },
+    {
+      "name": "内部居左",
+      "value": "insideLeft"
+    },
+    {
+      "name": "内部居右",
+      "value": "insideRight"
+    },
+    {
+      "name": "内部靠上",
+      "value": "insideTop"
+    },
+    {
+      "name": "内部靠下",
+      "value": "insideBottom"
+    },
+    {
+      "name": "内部左上角",
+      "value": "insideTopLeft"
+    },
+    {
+      "name": "内部左下角",
+      "value": "insideBottomLeft"
+    },
+    {
+      "name": "内部右上角",
+      "value": "insideTopRight"
+    },
+    {
+      "name": "内部右下角",
+      "value": "insideBottomRight"
+    }
+  ],
+  "pieLabelPos": [
+    {
+      "name": "外侧",
+      "value": "outside"
+    },
+    {
+      "name": "内侧",
+      "value": "inside"
+    },
+    {
+      "name": "中心",
+      "value": "center"
+    }
+  ],
+  "horizontalAlign": [
+    {
+      "value": "left",
+      "name": "左"
+    },
+    {
+      "value": "center",
+      "name": "中"
+    },
+    {
+      "value": "right",
+      "name": "右"
+    }
+  ],
+  "vertical": [
+    {
+      "value": "flex-start",
+      "name": "顶部"
+    },
+    {
+      "value": "center",
+      "name": "居中"
+    },
+    {
+      "value": "flex-end",
+      "name": "底部"
+    }
+  ],
+  "aglin": [
+    {
+      "value": "flex-start",
+      "name": "左对齐"
+    },
+    {
+      "value": "center",
+      "name": "居中对齐"
+    },
+    {
+      "value": "flex-end",
+      "name": "右对齐"
+    }
+  ],
+  "lineTypes": [
+    {
+      "value": "solid",
+      "name": "实线"
+    },
+    {
+      "value": "dashed",
+      "name": "虚线"
+    },
+    {
+      "value": "dotted",
+      "name": "点线"
+    }
+  ],
+  "axisTypes": [
+    {
+      "value": "value",
+      "name": "数值轴"
+    },
+    {
+      "value": "category",
+      "name": "类目轴"
+    },
+    {
+      "value": "time",
+      "name": "时间轴"
+    }
+  ],
+  "orient": [
+    {
+      "name": "水平方向",
+      "value": "horizontal"
+    },
+    {
+      "name": "垂直方向",
+      "value": "vertical"
+    }
+  ],
+  "effect": [
+    {
+      "name": "位移切换",
+      "value": "slide"
+    },
+    {
+      "name": "淡入",
+      "value": "fade"
+    },
+    {
+      "name": "方块",
+      "value": "cube"
+    },
+    {
+      "name": "3d流",
+      "value": "coverflow"
+    },
+    {
+      "name": "3d翻转",
+      "value": "flip"
+    }
+  ],
+  "symbol": [
+    {
+      "name": "圆形",
+      "value": "circle"
+    },
+    {
+      "name": "矩形",
+      "value": "rect"
+    },
+    {
+      "name": "圆角矩形",
+      "value": "roundRect"
+    },
+    {
+      "name": "三角形",
+      "value": "triangle"
+    },
+    {
+      "name": "菱形",
+      "value": "diamond"
+    },
+    {
+      "name": "针形",
+      "value": "pin"
+    },
+    {
+      "name": "箭头形",
+      "value": "arrow"
+    },
+    {
+      "name": "无",
+      "value": "none"
+    }
+  ],
+  "nodeAlign": [
+    {
+      "name": "节点双端对齐",
+      "value": "justify"
+    },
+    {
+      "name": "节点左对齐",
+      "value": "left"
+    },
+    {
+      "name": "节点右对齐",
+      "value": "right"
+    }
+  ],
+  "projection": [
+    {
+      "name": "透视投影",
+      "value": "perspective"
+    },
+    {
+      "name": "正交投影",
+      "value": "orthographic"
+    }
+  ],
+  "shading": [
+    {
+      "name": "仅显示颜色",
+      "value": "color"
+    },
+    {
+      "name": "经典lambert着色",
+      "value": "lambert"
+    },
+    {
+      "name": "真实感渲染",
+      "value": "realistic"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "环形布局",
+      "value": "circular"
+    },
+    {
+      "name": "力引导布局",
+      "value": "force"
+    }
+  ],
+  "roseTypes": [
+    {
+      "name": "圆心角模式",
+      "value": "radius"
+    },
+    {
+      "name": "半径模式",
+      "value": "area"
+    }
+  ],
+  "animationTypes": [
+    {
+      "name": "圆弧展开",
+      "value": "expansion"
+    },
+    {
+      "name": "缩放展开",
+      "value": "scale"
+    }
+  ],
+  "animationEasings": [
+    {
+      "name": "linear",
+      "value": "linear"
+    },
+    {
+      "name": "cubicOut",
+      "value": "cubicOut"
+    },
+    {
+      "name": "quadraticInOut",
+      "value": "quadraticInOut"
+    },
+    {
+      "name": "elasticOut",
+      "value": "elasticOut"
+    },
+    {
+      "name": "elasticIn",
+      "value": "elasticIn"
+    },
+    {
+      "name": "quarticOut",
+      "value": "quarticOut"
+    }
+  ],
+  "TextVertical": [
+    {
+      "name": "进度条顶部",
+      "value": "top"
+    },
+    {
+      "name": "进度条底部",
+      "value": "bottom"
+    }
+  ],
+  "quality": [
+    {
+      "name": "low",
+      "value": "low"
+    },
+    {
+      "name": "medium",
+      "value": "medium"
+    },
+    {
+      "name": "high",
+      "value": "high"
+    },
+    {
+      "name": "ultra",
+      "value": "ultra"
+    }
+  ]
+}

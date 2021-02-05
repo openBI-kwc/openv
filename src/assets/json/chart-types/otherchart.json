@@ -1,0 +1,385 @@
+[{
+    "comtype": "echarts",
+    "comkey": "guanxiwangluo",
+    "name": "关系网络",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "charttype": "guanxiwangluo",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ],
+        [
+          "source",
+          "",
+          "源节点名称"
+        ],
+        [
+          "target",
+          "",
+          "目标节点名称"
+        ],
+        [
+          "category",
+          "",
+          "节点分类"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "leidatu",
+    "name": "雷达图",
+    "width": 500,
+    "height": 500,
+    "chartData": {},
+    "charttype": "leidatu",
+    "dataOpt": {
+      "map": [
+        [
+          "target",
+          "",
+          "指标"
+        ],
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "yibiaopan",
+    "name": "仪表盘",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "charttype": "yibiaopan",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "ciyun",
+    "name": "词云",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "charttype": "ciyun",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "文字"
+        ],
+        [
+          "value",
+          "",
+          "大小"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "loudoutu",
+    "name": "漏斗图",
+    "width": 500,
+    "height": 400,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "loudoutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "shuiqiutu",
+    "name": "水球图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "charttype": "shuiqiutu",
+    "dataOpt": {
+      "map": [
+        [
+          "value",
+          "",
+          "指标值(小数)"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "relitu",
+    "name": "热力图",
+    "width": 500,
+    "height": 300,
+    "chartData": {},
+    "charttype": "relitu",
+    "dataOpt": {
+      "map": [
+        [
+          "xName",
+          "",
+          "X轴数据名称"
+        ],
+        [
+          "yName",
+          "",
+          "Y轴数据名称"
+        ],
+        [
+          "x",
+          "",
+          "数据X坐标"
+        ],
+        [
+          "y",
+          "",
+          "数据Y坐标"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "xiangxingtu",
+    "name": "箱型图",
+    "charttype": "xiangxingtu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "min",
+          "",
+          "四分位数1"
+        ],
+        [
+          "Q1",
+          "",
+          "四分位数2"
+        ],
+        [
+          "median",
+          "",
+          "四分位数3"
+        ],
+        [
+          "Q3",
+          "",
+          "四分位数4"
+        ],
+        [
+          "max",
+          "",
+          "四分位数5"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "width": 600,
+    "height": 350,
+    "chartData": {}
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "hexiantu",
+    "name": "和弦图",
+    "width": 500,
+    "height": 500,
+    "chartData": {},
+    "charttype": "hexiantu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "数据名称"
+        ],
+        [
+          "value",
+          "",
+          "数据值"
+        ],
+        [
+          "source",
+          "",
+          "源节点名称"
+        ],
+        [
+          "target",
+          "",
+          "目标节点名称"
+        ],
+        [
+          "category",
+          "",
+          "节点分类"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "xuritu",
+    "name": "旭日图",
+    "width": 300,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "描述"
+        ],
+        [
+          "value",
+          "",
+          "数值"
+        ],
+        [
+          "pid",
+          "",
+          "父级矩形ID"
+        ],
+        [
+          "cid",
+          "",
+          "子级矩形ID"
+        ]
+      ]
+    },
+    "charttype": "xuritu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "juxingshutu",
+    "name": "矩形树图",
+    "width": 500,
+    "height": 300,
+    "chartData": {},
+    "charttype": "juxingshutu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "文本"
+        ],
+        [
+          "value",
+          "",
+          "数值(面积)"
+        ],
+        [
+          "pid",
+          "",
+          "父级矩形ID"
+        ],
+        [
+          "cid",
+          "",
+          "子级矩形ID"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "sangjitu",
+    "name": "桑基图",
+    "width": 500,
+    "height": 300,
+    "chartData": {},
+    "charttype": "sangjitu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "文本",
+          "optional"
+        ],
+        [
+          "source",
+          "",
+          "来源"
+        ],
+        [
+          "target",
+          "",
+          "指向"
+        ],
+        [
+          "value",
+          "",
+          "数据"
+        ]
+      ]
+    }
+  }
+]

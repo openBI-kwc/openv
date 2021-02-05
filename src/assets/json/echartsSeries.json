@@ -1,0 +1,786 @@
+{
+  "scatter": {
+    "name": "",
+    "type": "scatter",
+    "symbol": "circle",
+    "cursor": "pointer",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "label": {
+      "show": false,
+      "position": "inside",
+      "distance": 5,
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "align": "left",
+      "verticalAlign": "top",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "padding": 0
+    },
+    "itemStyle": {
+      "borderWidth": 0,
+      "borderType": "solid",
+      "color": "",
+      "borderColor": "rgba(0,0,0,0)"
+    },
+    "data": [],
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "tooltip": {
+      "formatter": "{b0}: {c0}<br />{b1}: {c1}",
+      "backgroundColor": "rgba(50,50,50,0.7)",
+      "borderColor": "#333",
+      "borderWidth": 0,
+      "padding": 5,
+      "textStyle": {
+        "color": "#fff",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 14
+      }
+    }
+  },
+  "effectScatter": {
+    "name": "",
+    "type": "effectScatter",
+    "effectType": "ripple",
+    "showEffectOn": "render",
+    "symbol": "circle",
+    "cursor": "pointer",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "label": {
+      "show": false,
+      "position": "inside",
+      "distance": 5,
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "align": "left",
+      "verticalAlign": "top",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "padding": 0
+    },
+    "itemStyle": {
+      "borderWidth": 0,
+      "borderType": "solid",
+      "color": "",
+      "borderColor": "rgba(0,0,0,0)"
+    },
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "data": []
+  },
+  "line": {
+    "name": "",
+    "type": "line",
+    "symbol": "circle",
+    "symbolSize": 10,
+    "smooth": true,
+    "step": false,
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}",
+      "fontSize": 16,
+      "fontWeight": "normal",
+      "color": "#fff"
+    },
+    "itemStyle": {
+      "borderColor": "#FFF"
+    },
+    "lineStyle": {
+      "width": 3,
+      "type": "solid",
+      "opacity": 1,
+      "color": {
+        "x": 0,
+        "y": 0,
+        "x2": 0,
+        "y2": 1,
+        "type": "linear",
+        "global": false,
+        "colorStops": [
+          {
+            "offset": 0,
+            "color": "rgba(24,144,255,0.6)"
+          },
+          {
+            "offset": 1,
+            "color": "rgba(24,144,255,0)"
+          }
+        ]
+      }
+    },
+    "areaStyle": {
+      "opacity": 1,
+      "color": {
+        "x": 0,
+        "y": 0,
+        "x2": 0,
+        "y2": 1,
+        "type": "linear",
+        "global": false,
+        "colorStops": [
+          {
+            "offset": 0,
+            "color": "rgba(24,144,255,0)"
+          },
+          {
+            "offset": 1,
+            "color": "rgba(24,144,255,0)"
+          }
+        ]
+      }
+    },
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "data": []
+  },
+  "pictorialBar": {
+    "type": "pictorialBar",
+    "name": "",
+    "barWidth": "auto",
+    "barMaxWidth": "50%",
+    "barGap": 0,
+    "barCategoryGap": "20%",
+    "symbol": "rect",
+    "symbolRepeat": true,
+    "symbolRotate": 0,
+    "symbolClip": false,
+    "symbolPatternSize": 400,
+    "symbolSize": [
+      "100%",
+      5
+    ],
+    "symbolPosition": "start",
+    "symbolOffset": [
+      0,
+      0
+    ],
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}"
+    },
+    "itemStyle": {
+      "color": "#1089ff"
+    },
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "data": []
+  },
+  "huxingzhuzhuangtu": {
+    "type": "bar",
+    "coordinateSystem": "polar",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "label": {
+      "show": true,
+      "position": [
+        0,
+        0
+      ],
+      "distance": 5,
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "align": "left",
+      "verticalAlign": "top"
+    },
+    "itemStyle": {
+      "color": ""
+    },
+    "stack": null,
+    "cursor": "pointer",
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "data": []
+  },
+  "bar": {
+    "type": "bar",
+    "name": "",
+    "xAxisIndex": 0,
+    "yAxisIndex": 0,
+    "stack": "",
+    "animation": false,
+    "barWidth": "auto",
+    "barMaxWidth": "50%",
+    "barGap": 0,
+    "barCategoryGap": "20%",
+    "large": true,
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}"
+    },
+    "itemStyle": {
+      "color": ""
+    },
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "data": []
+  },
+  "pie": {
+    "type": "pie",
+    "radius": [
+      "60%",
+      "80%"
+    ],
+    "animationType": "scale",
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "hoverAnimation": false,
+    "selectedMode": "area",
+    "selectedOffset": 30,
+    "showRoseType": false,
+    "roseType": false,
+    "startAngle": 45,
+    "label": {
+      "show": true,
+      "formatter": "{b}\n{d}%",
+      "fontSize": 12,
+      "position": "outside",
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "align": "auto",
+      "verticalAlign": "auto",
+      "padding": 0
+    },
+    "labelLine": {
+      "smooth": false,
+      "show": true,
+      "length": 8,
+      "length2": 10
+    },
+    "data": []
+  },
+  "huanzhuangfaguangzhanbitu": {
+    "type": "pie",
+    "radius": [
+      "60%",
+      "80%"
+    ],
+    "animationType": "scale",
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "hoverAnimation": false,
+    "selectedMode": "area",
+    "selectedOffset": 30,
+    "showRoseType": false,
+    "roseType": false,
+    "startAngle": 45,
+    "label": {
+      "show": true,
+      "formatter": "{b}\n{d}%",
+      "fontSize": 12,
+      "position": "outside",
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "align": "auto",
+      "verticalAlign": "auto",
+      "padding": 0
+    },
+    "labelLine": {
+      "smooth": false,
+      "show": true,
+      "length": 8,
+      "length2": 10
+    },
+    "itemStyle": {
+      "shadowBlur": 30,
+      "shadowColor": "rgba(142, 152, 241, 0.6)",
+      "shadowOffsetY": 0,
+      "shadowOffsetX": 0,
+      "opacity": 1
+    },
+    "data": []
+  },
+  "funnel": {
+    "type": "funnel",
+    "left": 20,
+    "top": 35,
+    "right": 40,
+    "bottom": 25,
+    "name": "",
+    "sort": "descending",
+    "funnelAlign": "center",
+    "label": {
+      "show": true,
+      "position": "inside",
+      "formatter": "{b}: {d}",
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": 10,
+      "align": "center",
+      "verticalAlign": "middle"
+    },
+    "labelLine": {
+      "smooth": false,
+      "show": true,
+      "length": 8,
+      "length2": 10,
+      "lineStyle": {
+        "color": "#000"
+      }
+    },
+    "itemStyle": {
+      "color": "",
+      "opacity": 1
+    },
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "data": []
+  },
+  "leidatu": {
+    "name": "",
+    "value": [],
+    "symbolSize": 2.5,
+    "emphasis": {
+      "lineStyle": {
+        "width": 4
+      }
+    },
+    "itemStyle": {
+      "borderColor": "rgba(245, 166, 35, 1)",
+      "borderWidth": 2.5
+    },
+    "lineStyle": {
+      "width": 1,
+      "opacity": 0.5,
+      "color": "#ffffff"
+    },
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "areaStyle": {
+      "opacity": 1,
+      "color": "rgba(19, 154, 221, 0.4)"
+    }
+  },
+  "boxplot": {
+    "name": "",
+    "type": "boxplot",
+    "layout": "horizontal",
+    "boxWidth": [
+      7,
+      50
+    ],
+    "itemStyle": {
+      "borderColor": "#214567",
+      "borderWidth": 2,
+      "color": "rgba(0,0,0,0)",
+      "borderType": "solid"
+    },
+    "markLine": {
+      "lineStyle": {
+        "color": "#ffffff"
+      },
+      "data": [
+        {
+          "name": "平均线",
+          "type": "average"
+        }
+      ]
+    },
+    "animation": false,
+    "animationDelay": 0,
+    "animationEasing": "cubicOut",
+    "data": []
+  },
+  "geoheatmap": {
+    "type": "heatmap",
+    "coordinateSystem": "geo",
+    "label": {
+      "show": false,
+      "position": "middle",
+      "color": " rgb(55, 75, 113)",
+      "fontFamily": "",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "fontSize": 18
+    },
+    "itemStyle": {
+      "color": "rgba(255, 140, 34, 1)"
+    },
+    "data": []
+  },
+  "geoeffectScatter": {
+    "type": "effectScatter",
+    "coordinateSystem": "geo",
+    "data": [],
+    "showEffectOn": "render",
+    "rippleEffect": {
+      "brushType": "stroke"
+    },
+    "label": {
+      "show": false,
+      "position": "middle",
+      "color": " rgb(55, 75, 113)",
+      "fontFamily": "",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "fontSize": 18
+    },
+    "itemStyle": {
+      "color": "rgba(255, 140, 34, 1)"
+    }
+  },
+  "geoscatter": {
+    "type": "scatter",
+    "coordinateSystem": "geo",
+    "symbol": "pin",
+    "label": {
+      "show": false,
+      "position": "middle",
+      "color": " rgb(55, 75, 113)",
+      "fontFamily": "",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "fontSize": 18
+    },
+    "itemStyle": {
+      "color": "rgba(255, 140, 34, 1)"
+    },
+    "data": []
+  },
+  "geolines": {
+    "type": "lines",
+    "coordinateSystem": "geo",
+    "effect": {
+      "show": true,
+      "period": 4,
+      "loop": true,
+      "delay": 0,
+      "color": "rgba(243, 207, 13, 1)",
+      "trailLength": 0.2,
+      "symbol": "arrow",
+      "symbolSize": 5
+    },
+    "lineStyle": {
+      "width": 1,
+      "color": "rgba(144, 238, 144, 1)"
+    },
+    "label": {
+      "show": false,
+      "position": "middle",
+      "color": " rgb(55, 75, 113)",
+      "fontFamily": "",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "fontSize": 18
+    },
+    "data": []
+  },
+  "geolines3D": {
+    "type": "lines3D",
+    "coordinateSystem": "geo3D",
+    "effect": {
+      "show": true,
+      "period": 4,
+      "trailColor": "rgba(255, 140, 34, 1)",
+      "trailWidth": 4,
+      "trailOpacity": 0.5,
+      "trailLength": 3,
+      "constantSpeed": 5
+    },
+    "blendMode": "lighter",
+    "lineStyle": {
+      "color": "rgba(255, 140, 34, 1)",
+      "width": 2,
+      "opacity": 0.5
+    },
+    "data": []
+  },
+  "geoscatter3D": {
+    "type": "scatter3D",
+    "coordinateSystem": "geo3D",
+    "symbol": "circle",
+    "symbolSize": 20,
+    "zlevel": 2,
+    "itemStyle": {
+      "color": "rgba(255, 140, 34, 1)",
+      "borderColor": "#3B5077",
+      "borderWidth": 0,
+      "opacity": 1
+    },
+    "label": {
+      "show": false,
+      "distance": 5,
+      "position": "center",
+      "formatter": "{b}",
+      "textStyle": {
+        "color": "#000",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 12,
+        "borderColor": "#3B5077",
+        "borderWidth": 0
+      }
+    },
+    "data": []
+  },
+  "geobar3D": {
+    "type": "bar3D",
+    "coordinateSystem": "geo3D",
+    "bevelSmoothness": 2,
+    "bevelSize": 0.5,
+    "minHeight": 10,
+    "zlevel": 3,
+    "itemStyle": {
+      "color": "#2B91B7",
+      "opacity": 1
+    },
+    "label": {
+      "show": false,
+      "distance": 2,
+      "position": "right",
+      "formatter": "{b}",
+      "textStyle": {
+        "color": "rgba(199, 21, 133, 1)",
+        "fontWeight": "normal",
+        "fontFamily": "sans-serif",
+        "fontSize": 12,
+        "borderColor": "#3B5077",
+        "borderWidth": 0
+      }
+    },
+    "data": []
+  },
+  "rectangletree": {
+    "name": "全部",
+    "type": "treemap",
+    "itemStyle": {
+      "show": false,
+      "color": "#fff",
+      "borderColor": "#fff",
+      "colorAlpha": "1",
+      "borderWidth": 0
+    },
+    "label": {
+      "formatter": "{b}",
+      "color": "#fff",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "show": true,
+      "position": "inside",
+      "fontWeight": "normal",
+      "borderWidth": 0,
+      "borderColor": "rgba(0,0,0,0)",
+      "borderRadius": 0,
+      "backgroundColor": "rgba(0,0,0,0)"
+    },
+    "upperlabel": true,
+    "width": "60%",
+    "height": "70%",
+    "data": []
+  },
+  "sankey": {
+    "type": "sankey",
+    "nodeWidth": "20",
+    "nodeGap": "8",
+    "nodeAlign": "justify",
+    "label": {
+      "show": true,
+      "position": "right",
+      "distance": 5,
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sen-serif",
+      "fontSize": 12,
+      "align": "center",
+      "verticalAlign": "middle",
+      "lineHeight": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "padding": 0
+    },
+    "links": [],
+    "itemStyle": {
+      "color": "#b3cde3",
+      "borderColor": "#aaa",
+      "borderWidth": 1,
+      "borderType": "solid",
+      "opacity": 0.6
+    },
+    "lineStyle": {
+      "color": "#496880",
+      "opacity": 1,
+      "curveness": 0.5
+    }
+  },
+  "sunburst": {
+    "radius": [
+      "15%",
+      "80%"
+    ],
+    "type": "sunburst",
+    "sort": null,
+    "highlightPolicy": "ancestor",
+    "data": [],
+    "label": {
+      "show": true,
+      "rotate": "radial",
+      "align": "center",
+      "position": "inside",
+      "color": "#fff",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": 12,
+      "lineHeight": 12,
+      "borderRadius": 0,
+      "backgroundColor": "rgba(0,0,0,0)"
+    },
+    "itemStyle": {
+      "color": "",
+      "textBorderColor": "#666",
+      "textBorderWidth": 2,
+      "borderColor": "#999",
+      "borderWidth": 1
+    }
+  },
+  "bar3D": {
+    "type": "bar3D",
+    "name": "数量",
+    "data": [],
+    "shading": "lambert",
+    "label": {
+      "show": true,
+      "distance": 1,
+      "textStyle": {
+        "color": "#333",
+        "fontSize": 18,
+        "borderWidth": 1,
+        "borderColor": "none",
+        "backgroundColor": "rgba(199, 21, 133, 1)",
+        "fontFamily": "impact, Simhei"
+      }
+    },
+    "itemStyle": {
+      "opacity": 1
+    }
+  },
+  "line3D": {
+    "type": "line3D",
+    "name": "K1+500",
+    "data": [],
+    "lineStyle": {
+      "opacity": 1,
+      "width": 2
+    }
+  },
+  "gradline": {
+    "name": "",
+    "type": "line",
+    "itemStyle": {
+      "borderColor": "#DCDB89",
+      "borderWidth": 2,
+      "color": "rgba(69,252,155,0.6)"
+    },
+    "label": {
+      "show": true,
+      "position": "top",
+      "formatter": "{@score}",
+      "fontSize": 16,
+      "fontWeight": "normal",
+      "color": "#fff"
+    },
+    "symbol": "circle",   
+    "symbolSize": 10,
+    "lineStyle": {
+      "width": 5,
+      "color": {
+        "x": 0,
+        "y": 0,
+        "x2": 0,
+        "y2": 1,
+        "type": "linear",
+        "global": false,
+        "colorStops": [
+          {
+            "offset": 0,
+            "color": "#E355AC"
+          },
+          {
+            "offset": 1,
+            "color": "#4693EC"
+          }
+        ]
+      }
+    },
+    "data": []
+  },
+  "gradbar": {
+    "name": "",
+    "type": "bar",
+    "animation": false,
+    "yAxisIndex": 0,
+    "data": [],
+    "label": {
+      "normal": {
+        "show": true,
+        "position": "right",
+        "textStyle": {
+          "color": "#ffffff",
+          "fontSize": "16"
+        }
+      }
+    },
+    "barWidth": 20,
+    "itemStyle": {
+      "color": {
+        "type": "linear",
+        "x": 0,
+        "y": 0,
+        "x2": 1,
+        "y2": 1,
+        "colorStops": [
+          {
+            "offset": 0,
+            "color": "rgba(255, 69, 0, 0.03)"
+          },
+          {
+            "offset": 1,
+            "color": "rgba(255, 69, 0, 1)"
+          }
+        ],
+        "global": false
+      }
+    },
+    "z": 2
+  }
+}

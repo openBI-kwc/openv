@@ -1,0 +1,229 @@
+{
+  "title": {
+    "show": false,
+    "text": "3D柱状图",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "tooltip": {
+    "show": false
+  },
+  "visualMap": {
+    "itemWidth": 15,
+    "itemHeight": 100,
+    "type": "continuous",
+    "calculable": true,
+    "text": ["High", "Low"],
+    "max": 30,
+    "min": 0,
+    "show": true,
+    "left": "left",
+    "top": "bottom",
+    "orient": "vertical",
+    "inRange": {
+      "color": [
+        "#313695",
+        "#4575b4",
+        "#74add1",
+        "#abd9e9",
+        "#e0f3f8",
+        "#ffffbf",
+        "#fee090",
+        "#fdae61",
+        "#f46d43",
+        "#d73027",
+        "#a50026"
+      ]
+    },
+    "textStyle": {
+      "color": "#fff"
+    }
+  },
+  "yAxis": [{
+    "show": false
+  }],
+  "xAxis3D": {
+    "name": "",
+    "type": "category",
+    "fontWeight": "normal",
+    "show": true,
+    "nameGap":20,
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontSize": 12,
+      "fontFamily":"sans-serif",
+      "fontWeight":"normal"
+    },
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "fontSize": 12,
+      "color": "#cccccc",
+      "formatter": null
+    },
+    "data": []
+  },
+  "yAxis3D": {
+    "name": "",
+    "type": "category",
+    "show": true,
+    "fontFamily": "sans-serif",
+    "nameGap": 20,
+    "fontWeight": "normal",
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontSize": 12,
+      "fontFamily": "sans-serif",
+      "fontWeight": "normal"
+    },
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "fontSize": 12,
+      "color": "#ccc",
+      "formatter": null
+    },
+    "data": []
+  },
+  "zAxis3D": {
+    "name": "",
+    "fontWeight": "normal",
+    "type": "value",
+    "show": true,
+    "nameGap": 20,
+    "nameTextStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontSize": 12,
+      "fontFamily": "sans-serif",
+      "fontWeight": "normal"
+    },
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "width": "1",
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "fontSize": 12,
+      "color": "#ccc",
+      "formatter": null
+    }
+  },
+  "grid3D": {
+    "boxWidth": 100,
+    "boxHeight": 100,
+    "boxDepth": 100,
+    "groundPlane": {
+      "show": true,
+      "color": "#000"
+    },
+    "axisTick": {
+      "show": false
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#fff",
+        "width": 1
+      }
+    },
+    "axisLabel": {
+      "textStyle": {
+        "color": "#fff",
+        "fontSize": 14
+      }
+    },
+    "light": {
+      "main": {
+        "intensity": 1.2,
+        "shadow": true
+      },
+      "ambient": {
+        "intensity": 0.7,
+        "shadow": true
+      }
+    },
+    "viewControl": {
+      "alpha": 15,
+      "beta": 40,
+      "projection": "orthographic",
+      "autoRotate": true,
+      "zoomSensitivity": 0,
+      "autoRotateAfterStill": 5,
+      "distance": 250
+    }
+  },
+  "series": [
+    {
+      "type": "bar3D",
+      "name": "数量",
+      "data": [],
+      "shading": "lambert",
+      "label": {
+        "show": true,
+        "distance": 1,
+        "textStyle": {
+          "color": "#333333",
+          "fontSize": 18,
+          "borderWidth": 0,
+          "borderColor": "rgba(0,0,0,0)",
+          "backgroundColor": "rgba(255,255,255,0)",
+          "fontFamily": "sans-serif",
+          "fontWeight": "normal"
+        }
+      },
+      "itemStyle": {
+        "opacity": 1
+      }
+    }
+  ]
+}

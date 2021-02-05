@@ -1,0 +1,98 @@
+{
+  "textStyle": {
+    "color": "#fff",
+    "fontStyle": "normal",
+    "fontWeight": "normal",
+    "fontFamily": "sans-serif",
+    "fontSize": 12
+  },
+  "title": {
+    "show": false,
+    "text": "",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "legend": {
+    "type": "plain",
+    "show": true,
+    "left": "center",
+    "top": "auto",
+    "right": "auto",
+    "bottom": "3%",
+    "orient": "horizontal",
+    "align": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14,
+    "formatter": "",
+    "selectedMode": true,
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    }
+  },
+  "tooltip": {
+    "show": false,
+    "trigger": "item"
+  },
+  "series": [{
+    "type": "liquidFill",
+    "center": ["50%", "50%"],
+    "color": ["rgba(21, 127, 202, 0.6)"],
+    "amplitude": "5%",
+    "waveLength": "80%",
+    "phase": "auto",
+    "period": "auto",
+    "direction": "right",
+    "shape": "circle",
+    "waveAnimation": true,
+    "maxWaveNum": 1,
+    "outline": {
+      "show": true,
+      "borderDistance": 0,
+      "itemStyle": {
+        "color": "",
+        "borderColor": "rgba(221, 236, 225, 1)",
+        "borderWidth": 8
+      }
+    },
+    "itemStyle": {
+      "opacity": 0.8
+    },
+    "backgroundStyle": {
+      "color": "rgba(100, 168, 196, 1)"
+    },
+    "label": {
+      "show": true,
+      "color": "#294D99",
+      "insideColor": "#fff",
+      "fontSize": 50,
+      "fontWeight": "bold",
+      "align": "center",
+      "baseline": "middle",
+      "position": "inside"
+    },
+    "data": []
+  }]
+}

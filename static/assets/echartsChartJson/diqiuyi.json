@@ -1,0 +1,43 @@
+{
+  "title": {
+    "show": false,
+    "text": "",
+    "textStyle": {
+      "color": "rgba(255,255,255,0.6)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "sans-serif",
+      "fontSize": 12,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "padding": 0
+    },
+    "textAlign": "auto",
+    "textVerticalAlign": "auto",
+    "padding": 0,
+    "itemGap": 10,
+    "left": "center",
+    "top": "top",
+    "right": "auto",
+    "bottom": "auto"
+  },
+  "globe": {
+    "show": true,
+    "globeRadius": 100,
+    "globeOuterRadius": 150,
+    "baseTexture": "./static/assets/staticSource/mapImg/source/normal.jpg",
+    "displacementScale": 0,
+    "displacementQuality": "medium",
+    "shading": "color",
+    "viewControl": {
+      "autoRotate": true,
+      "autoRotateSpeed": 10,
+      "alpha": 0,
+      "beta": 0,
+      "projection": "perspective",
+      "distance": 150,
+      "center": [0, 0, 0],
+      "animation": false
+    }
+  },
+  "series": []
+}

@@ -1,0 +1,513 @@
+[{
+    "comtype": "echarts",
+    "comkey": "banmazhutu",
+    "name": "斑马柱图",
+    "width": 350,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "数值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "banmazhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "chuizhijibenzhutu",
+    "name": "垂直基本柱图",
+    "width": 350,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "数值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "chuizhijibenzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "chuizhijiaonanzhutu",
+    "name": "垂直胶囊柱图",
+    "width": 350,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "chuizhijiaonanzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "fenzuzhutu",
+    "name": "分组柱图",
+    "width": 400,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "fenzuzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "huxingzhutu",
+    "name": "弧形柱图",
+    "width": 400,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "huxingzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "jibenzhutu",
+    "name": "基本柱图",
+    "width": 350,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "jibenzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "shuipingjibenzhutu",
+    "name": "水平基本柱图",
+    "width": 400,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "shuipingjibenzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "shuipingjiaonanzhutu",
+    "name": "水平胶囊柱图",
+    "width": 400,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "shuipingjiaonanzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "tixingzhutu",
+    "name": "梯形柱图",
+    "width": 350,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "tixingzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "zhexianzhutu",
+    "name": "折线柱图",
+    "width": 350,
+    "height": 250,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "barval",
+          "",
+          "柱子值"
+        ],
+        [
+          "lineval",
+          "",
+          "折线值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "zhexianzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "danzhouzhexianzhutu",
+    "name": "单轴折线柱图",
+    "width": 350,
+    "height": 300,
+    "chartData": {},
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "barval",
+          "",
+          "柱子值"
+        ],
+        [
+          "lineval",
+          "",
+          "折线值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    },
+    "charttype": "danzhouzhexianzhutu"
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "shuangxianghengxiangzhuzhuangtu",
+    "name": "双向横向柱状图",
+    "width": 450,
+    "height": 300,
+    "chartData": {
+      "fontSize": 20,
+      "deg": 0,
+      "lineHeight": 6,
+      "opacity": 10,
+      "background": "rgba(36, 231, 22, 1)",
+      "borderColor": "#FFFFFF",
+      "showTopBorder": false,
+      "showRightBorder": false,
+      "showBottomBorder": false,
+      "showLeftBorder": false
+    },
+    "charttype": "shuangxianghengxiangzhuzhuangtu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "3dzhuzhuangtu",
+    "name": "三维柱状图",
+    "width": 500,
+    "height": 300,
+    "chartData": {
+      "fontSize": 20,
+      "deg": 0,
+      "lineHeight": 6,
+      "opacity": 10,
+      "background": "rgba(36, 231, 22, 1)",
+      "borderColor": "#FFFFFF",
+      "showTopBorder": false,
+      "showRightBorder": false,
+      "showBottomBorder": false,
+      "showLeftBorder": false
+    },
+    "charttype": "3dzhuzhuangtu",
+    "dataOpt": {
+      "map": [
+        [
+          "xname",
+          "",
+          "X轴数据"
+        ],
+        [
+          "yname",
+          "",
+          "y轴数据"
+        ],
+        [
+          "value",
+          "",
+          "数值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "zhuixingzhutu",
+    "name": "锥形柱图",
+    "width": 450,
+    "height": 300,
+    "chartData": {},
+    "charttype": "zhuixingzhutu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "jianbianzhuzhuangtu",
+    "name": "渐变柱状图",
+    "width": 450,
+    "height": 300,
+    "chartData": {},
+    "charttype": "jianbianzhuzhuangtu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "shuipingfaguangzhuzhuangtu",
+    "name": "水平发光柱状图",
+    "width": 450,
+    "height": 300,
+    "chartData": {},
+    "charttype": "shuipingfaguangzhuzhuangtu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ]
+      ]
+    }
+  },
+  {
+    "comtype": "echarts",
+    "comkey": "fenzujianbianzhuzhuangtu",
+    "name": "分组渐变柱状图",
+    "width": 450,
+    "height": 300,
+    "chartData": {},
+    "charttype": "fenzujianbianzhuzhuangtu",
+    "dataOpt": {
+      "map": [
+        [
+          "name",
+          "",
+          "类目"
+        ],
+        [
+          "value",
+          "",
+          "值"
+        ],
+        [
+          "series",
+          "",
+          "系列",
+          "optional"
+        ]
+      ]
+    }
+  }
+]

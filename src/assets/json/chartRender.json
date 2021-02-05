@@ -1,0 +1,482 @@
+[
+  {
+    "ctype": "biaozhuduibibingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "daitubingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "danzhibaifenbibingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "duoweidubingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "jibenbingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "huanshanbingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "lunbobingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "mubiaozhanbibingtu",
+    "icon": "&#xe621;",
+    "configCom": "IndicatorPie",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "zhibiaoduibibingtu",
+    "icon": "&#xe621;",
+    "configCom": "PieConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "zhibiaozhanbibingtu",
+    "icon": "&#xe621;",
+    "configCom": "IndicatorPie",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "huanzhuangfaguangzhanbitu",
+    "icon": "&#xe621;",
+    "configCom": "PielightConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "baifenbiduibibintu",
+    "icon": "&#xe621;",
+    "configCom": "ContrastPie",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "banmazhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "chuizhijibenzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "chuizhijiaonanzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "fenzuzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "huxingzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "jibenzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "shuipingjibenzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "shuipingjiaonanzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "tixingzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "zhexianzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "danzhouzhexianzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "zhuixingzhutu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "jianbianzhuzhuangtu",
+    "icon": "&#xe63c;",
+    "configCom": "GradBarConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "shuipingfaguangzhuzhuangtu",
+    "icon": "&#xe63c;",
+    "configCom": "GradBarConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "fenzujianbianzhuzhuangtu",
+    "icon": "&#xe63c;",
+    "configCom": "GroupConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "3dzhuzhuangtu",
+    "icon": "&#xe63c;",
+    "configCom": "Histogram3DConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "shuangxianghengxiangzhuzhuangtu",
+    "icon": "&#xe63c;",
+    "configCom": "HistogramConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "jibenzhexiantu",
+    "icon": "&#xe63a;",
+    "configCom": "BrokenlineConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "quyutu",
+    "icon": "&#xe63a;",
+    "configCom": "BrokenlineConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "quyufanpaiqi",
+    "icon": "&#xe63a;",
+    "configCom": "BrokenlineConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "shuangzhouzhexiantu",
+    "icon": "&#xe63a;",
+    "configCom": "BrokenlineConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "3dzhexiantu",
+    "icon": "&#xe63a;",
+    "configCom": "Line3DConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "xuxianzhexiantu",
+    "icon": "&#xe63a;",
+    "configCom": "BrokenlineConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "qipaotu",
+    "icon": "&#xe630;",
+    "configCom": "ScatterConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "sandiantu",
+    "icon": "&#xe630;",
+    "configCom": "ScatterConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "sandianzhexiantu",
+    "icon": "&#xe630;",
+    "configCom": "ScatterConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "qipaozhexiantu",
+    "icon": "&#xe630;",
+    "configCom": "ScatterConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "guanxiwangluo",
+    "icon": "&#xe627;",
+    "configCom": "GraphConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "leidatu",
+    "icon": "&#xe62d;",
+    "configCom": "RadarConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "yibiaopan",
+    "icon": "&#xe639;",
+    "configCom": "GaugeConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "ciyun",
+    "icon": "&#xe622;",
+    "configCom": "WordcloudConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "loudoutu",
+    "icon": "&#xe62e;",
+    "configCom": "FunnelConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "shuiqiutu",
+    "icon": "&#xe632;",
+    "configCom": "LiquidfillConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "relitu",
+    "icon": "&#xe62c;",
+    "configCom": "HeatmapConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "xiangxingtu",
+    "icon": "&#xe642;",
+    "configCom": "BoxplotConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "hexiantu",
+    "icon": "&#xe642;",
+    "configCom": "GraphConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "xuritu",
+    "icon": "&#xe642;",
+    "configCom": "SunburstConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "juxingshutu",
+    "icon": "&#xe642;",
+    "configCom": "TreeConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "sangjitu",
+    "icon": "&#xe642;",
+    "configCom": "SankeyConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "zhongguoditu",
+    "icon": "&#xe609;",
+    "configCom": "ChinaMapConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "3dzhongguoditu",
+    "icon": "&#xe609;",
+    "configCom": "China3dMapConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "shijieditu",
+    "icon": "&#xe609;",
+    "configCom": "WorldConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "3dshijieditu",
+    "icon": "&#xe609;",
+    "configCom": "WorldMap3dConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "gismap",
+    "icon": "&#xe609;",
+    "configCom": "BmapConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "diqiuyi",
+    "icon": "&#xe609;",
+    "configCom": "GlobeChartConfig",
+    "renderCom": "ChartMount"
+  },
+  {
+    "ctype": "biaoti",
+    "icon": "&#xe65d;",
+    "configCom": "TextConfig",
+    "renderCom": "TitleText"
+  },
+  {
+    "ctype": "xiantiao",
+    "icon": "&#xe65f;",
+    "configCom": "LinellaeConfig",
+    "renderCom": "Linellae"
+  },
+  {
+    "ctype": "zhixian",
+    "icon": "&#xe65f;",
+    "configCom": "LinePlugConfig",
+    "renderCom": "LinePlug"
+  },
+  {
+    "ctype": "shijian",
+    "icon": "&#xe660;",
+    "configCom": "TimeConfig",
+    "renderCom": "ClockTime"
+  },
+  {
+    "ctype": "wangye",
+    "icon": "&#xe667;",
+    "configCom": "",
+    "renderCom": "IframeWeb"
+  },
+  {
+    "ctype": "lunbotu",
+    "icon": "&#xe666;",
+    "configCom": "SwiperConfig",
+    "renderCom": "Swipe"
+  },
+  {
+    "ctype": "fuwenben",
+    "icon": "&#xe661;",
+    "configCom": "",
+    "renderCom": "Custom"
+  },
+  {
+    "ctype": "shipinbofangqi",
+    "icon": "&#xe66a;",
+    "configCom": "VideoConfig",
+    "renderCom": "VideoPlayer"
+  },
+  {
+    "ctype": "jishuban",
+    "icon": "&#xe669;",
+    "configCom": "CountingBoardConfig",
+    "renderCom": "CountingBoard"
+  },
+  {
+    "ctype": "jishubanpro",
+    "icon": "&#xe669;",
+    "configCom": "CountingBoardConfig2",
+    "renderCom": "GradientBoard"
+  },
+  {
+    "ctype": "duoxingwenben",
+    "icon": "&#xe668;",
+    "configCom": "MultiTextConfig",
+    "renderCom": "MultiText"
+  },
+  {
+    "ctype": "paomadeng",
+    "icon": "&#xe663;",
+    "configCom": "DiversionConfig",
+    "renderCom": "Diversion"
+  },
+  {
+    "ctype": "chaolianjie",
+    "icon": "&#xe65e;",
+    "configCom": "HeyperLinkConfig",
+    "renderCom": "HeyperLink"
+  },
+  {
+    "ctype": "jindutiao",
+    "icon": "&#xe62b;",
+    "configCom": "ProgressConfig",
+    "renderCom": "Progress"
+  },
+  {
+    "ctype": "biaoge",
+    "icon": "&#xe664;",
+    "configCom": "TableConfig",
+    "renderCom": "TableList"
+  },
+  {
+    "ctype": "huanxingjindutiao",
+    "icon": "&#xe665;",
+    "configCom": "CircleProgressConfig",
+    "renderCom": "ProgressRing"
+  },
+  {
+    "ctype": "jindutiaoxingma",
+    "icon": "&#xe665;",
+    "configCom": "ProgressBarcodeConfig",
+    "renderCom": "ProgressBarcode"
+  },
+  {
+    "ctype": "3dzhuzhuangqushibianhuatu",
+    "icon": "&#xe665;",
+    "configCom": "ColumnarTrendConfig",
+    "renderCom": "ColumnarTrend"
+  },
+  {
+    "ctype": "tupian",
+    "icon": "&#xe61e;",
+    "configCom": "ImageConfig",
+    "renderCom": "AutoRefreshImg"
+  },
+  {
+    "ctype": "biankuang",
+    "icon": "&#xe64b;",
+    "configCom": "BorderConfig",
+    "renderCom": "Border"
+  },
+  {
+    "ctype": "icon",
+    "icon": "&#xe610;",
+    "configCom": "IconConfig",
+    "renderCom": "Iconer"
+  },
+  {
+    "ctype": "lunbobiaoge",
+    "icon": "&#xe664;",
+    "configCom": "SwiperTableConfig",
+    "renderCom": "SwiperTable"
+  },
+  {
+    "ctype": "cloudComponent",
+    "icon": "&#xe8de;",
+    "configCom": "ColundConfig",
+    "renderCom": "ColundRender"
+  }
+]
