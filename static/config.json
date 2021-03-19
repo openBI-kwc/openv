@@ -5,7 +5,7 @@
     "logopath": "./static/assets/img/logo.png"
   },
   "setting": {
-    "server": "http://openbi.test",
+    "server": "",
     "realData" : {
       "type": "websocket",
       "url": "ws://192.168.30.189:9090"

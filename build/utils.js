@@ -109,7 +109,7 @@ exports.createNotifierCallback = () => {
 }
 // https://www.jianshu.com/p/9248db0349fb
 // 国内免费cdn镜像源，添加cdn根地址
-exports.cdnBaseHttp = config.serverURL || 'https://cdn.bootcss.com';
+exports.cdnBaseHttp = config.serverURL || '';
 // external配置
 // name 模块名称，与package.json同名
 // scope 模块作用域命名
@@ -199,8 +199,8 @@ exports.getExternalModules = config => {
     config = config.filter(obj => { return obj.notPackage })
     config.forEach(item => {
       // 拼接css 和 js 完整链接
-      item.css = item.css && ['https://cdn.bootcss.com', item.name, item.version, item.css].join('/');
-      item.js = item.js && ['https://cdn.bootcss.com', item.name, item.version, item.js].join('/');
+      item.css = item.css && ['', item.name, item.version, item.css].join('/');
+      item.js = item.js && ['', item.name, item.version, item.js].join('/');
     })
   }
   return {externals, config};

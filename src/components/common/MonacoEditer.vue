@@ -76,7 +76,7 @@ export default {
     };
   },
   created() {
-    this.cdnURL = this.online ? "https://cdn.bootcss.com/monaco-editor/0.17.0/min/vs" : this.setting.server + "/webCdnPkg/monaco-editor/min/vs";
+    this.cdnURL = this.setting.server + "/webCdnPkg/monaco-editor/min/vs";
     this.$nextTick(() => {
       this.initEditor()
     })
