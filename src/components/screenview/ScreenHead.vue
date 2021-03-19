@@ -457,46 +457,49 @@ export default {
         element.webkitCancelFullScreen();
       }
     },
-    // 添加新的组件到大屏，增加组件方法
-    addNewAssembly(chart, dragPosition) {
-      const cutItem = _.cloneDeep(chart);
+    // 添加组件到画布
+    /**
+     * @param chart 图表的原始数据
+     * @param pos 把组件放在那个位置
+     * @param data 额外的数据 默认不需要
+     */
+    createChartToCanvas (chart, pos, data)  {
+      chartPublicMethod.createNewChartAssembly(chart, data, pos);
+      this.trigger = "click";
+    },
+    // 增加组件
+    async addNewAssembly(chart, dragPosition) {
       // 组件类型
       const ComType = {
         ECharts: "echarts",
         Cloud: "cloud",
       };
-      // 添加到画布
-      const createChartItem = (chartData = undefined) => {
-        chartPublicMethod.createNewChartAssembly(
-          cutItem,
-          chartData,
-          this.trigger === "click" ? undefined : dragPosition
-        );
-        this.trigger = "click";
-      };
+      // 新的组件配置
+      const cutchart = _.cloneDeep(chart)
+      // 组件位置
+      const position = this.trigger === "click" ? "" : dragPosition
+
+      const createChartToCanvas = this.createChartToCanvas
+      
       // 收藏的图表
-      if (cutItem.collection) {
-        createChartItem();
-        return;
+      if (chart.collection) {
+        return createChartToCanvas(cutchart, position);
       }
 
-      // echarts图表
-      if (cutItem.comtype === ComType.ECharts) {
-        const url = `./static/assets/echartsChartJson/${cutItem.comkey}.json`;
-        loadData(url).then((chartData) => {
-          createChartItem(chartData);
-          return;
-        });
+      // Echarts的图表，需要请求数据了之后再创建
+      if (chart.comtype === ComType.ECharts) {
+        const url = `./static/assets/echartsChartJson/${chart.comkey}.json`;
+        const chartConfig = await loadData(url)
+        return createChartToCanvas(cutchart, position, chartConfig);
       }
 
-      // 云组件
-      if (cutItem.comtype === ComType.Cloud) {
-        createChartItem();
-        return;
+      // 云组件增加
+      if (chart.comtype === ComType.Cloud) {
+        return createChartToCanvas(cutchart, position);
       }
 
       // 其他组件
-      createChartItem();
+      createChartToCanvas(cutchart, position);
     },
   },
   beforeDestroy() {

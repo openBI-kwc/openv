@@ -1,17 +1,17 @@
 {
   "system": {
-    "sysname": "开维创数维可视化平台 V3.9.0",
+    "sysname": "数维可视化平台",
     "publish": 1,
     "logopath": "./static/assets/img/logo.png"
   },
   "setting": {
-    "server": "http://v2.kwcdev.cn",
+    "server": "http://openbi.test",
     "realData" : {
       "type": "websocket",
       "url": "ws://192.168.30.189:9090"
     },
     "thrdUrl": "ws://192.168.30.189:9508",
     "localDeploy": false,
-    "releaseMode": "absolute"
+    "shareDir": "openv"
   }
 }

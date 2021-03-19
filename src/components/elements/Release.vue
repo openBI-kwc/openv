@@ -109,8 +109,8 @@ export default {
         },
         query
       })
-      const { server, releaseMode } = this.setting
-      this.sentData.shareLink = releaseMode === 'absolute' ? server : '' + '/' + href
+      const { server, shareDir } = this.setting
+      this.sentData.shareLink = server + '/' + shareDir + '/' + href
     },
     // 关闭弹框
     closeModal () {

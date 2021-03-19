@@ -15,9 +15,7 @@
       component(v-if="viewType === 'form' && componentId" :is="componentId")
 </template>
 <script>
-import { Lodash, Utils } from '@public/utils'
 import { mapState } from 'vuex'
-import chartPublicMethod from '@public/chartPublicMethod'
 import chartRender from '@assets/json/chartRender'
 export default {
   data () {

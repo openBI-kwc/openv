@@ -76,7 +76,7 @@ this.chart.destroy()
   // 系统设置
   "system": {
     // 平台名称设置
-    "sysname": "开维创数维可视化平台 V3.9.0",       
+    "sysname": "数维可视化平台",       
     // 是否可用发布功能
     "publish": 1,
     // 平台LOGO
@@ -97,8 +97,8 @@ this.chart.destroy()
     "thrdUrl": "ws://192.168.30.189:9508",
     // 是否可以使用本地部署下载功能
     "localDeploy": false,
-    // 发布大屏启用模式  绝对路径 absolute 相对 relatively
-    "releaseMode": "absolute"
+    // 发布大屏时的一级目录 默认 openv 应与前端包目录同名
+    "shareDir": "openv"
   }
 }
 
