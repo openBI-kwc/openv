@@ -104,13 +104,6 @@ this.chart.destroy()
 
 ```
 
-## 作者
-
-- [yangyfeng](https://github.com/yangyfeng)
-- [likego555](https://github.com/likego555)
-- [lius0815](https://github.com/lius0815)
-- [qq252208535](https://github.com/qq252208535)
-
 # License
 
 遵循nc开源协议发布，并提供个人免费使用。
