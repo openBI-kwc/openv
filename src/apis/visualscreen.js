@@ -54,7 +54,7 @@ export const DELECT_ICON = params => http('post', '/index/icon/iconDel', params)
 // 本地部署
 export const LOCAL_DEPLOY = params => http('get', '/index/setSystem/localDeploy', params)
 // 保存离线部署大屏数据及配置
-export const Export_Large = params => http('post', 'index/screen/exportLarge', params)
+export const Export_Large = params => http('post', '/index/screen/exportLarge', params)
 // 保存大屏，一次保存所有图表
 export const SAVE_ALL_CHARTS = params => http('post', '/index/screen/saveAllChart', params)
 // 导出大屏数据
