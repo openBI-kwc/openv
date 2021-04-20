@@ -5,7 +5,7 @@
       .general-item
         .left 系统名称:
         .right
-          input.input-control.sysname(v-model="sysInfo.sysname", placeholder="例如：开维创数据可视化系统")
+          input.input-control.sysname(v-model="sysInfo.sysname", placeholder="例如：北京格胜数据可视化系统")
       .general-item
         .left 发布应用:
         .right

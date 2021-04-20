@@ -199,8 +199,9 @@ exports.getExternalModules = config => {
     config = config.filter(obj => { return obj.notPackage })
     config.forEach(item => {
       // 拼接css 和 js 完整链接
-      item.css = item.css && ['', item.name, item.version, item.css].join('/');
-      item.js = item.js && ['', item.name, item.version, item.js].join('/');
+      let cdnURL = this.cdnBaseHttp + '/webCdnPkg'
+      item.css = item.css && [cdnURL, item.name, item.version, item.css].join('/');
+      item.js = item.js && [cdnURL, item.name, item.version, item.js].join('/');
     })
   }
   return {externals, config};

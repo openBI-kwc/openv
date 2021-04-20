@@ -25,7 +25,7 @@
         .login-button(:class="{'disabled': loading}")
           .fa.fa-spinner.fa-pulse(v-if="loading")
           button.btn(type="button" @click="loginSystem" :disabled="loading") 登录
-        .forget-msg(v-show="showForgetmsg") 提示：如果您是超级管理员请联系开维创公司，否则请联系管理员
+        .forget-msg(v-show="showForgetmsg") 提示：如果您是超级管理员请联系北京格胜公司，否则请联系管理员
 </template>
 
 <script>

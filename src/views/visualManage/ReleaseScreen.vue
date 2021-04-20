@@ -178,7 +178,7 @@ export default {
     },
     // 复制
     copyShare (item) {
-      let name = '开维创数维可视化\n'
+      let name = '北京格胜数维可视化\n'
       let link = `链接: \n${item.link}\n`
       let pwd = ''
       if (item.password) {

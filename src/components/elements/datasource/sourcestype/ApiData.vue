@@ -5,7 +5,7 @@
         i.icon &#xe692;
         | API地址
       .icon.questions(v-tooltip="tips") &#xe662;
-      input.input-control(type="text", placeholder="http://www.kwcnet.com/user/api", v-model="paramsData.filepath")
+      input.input-control(type="text", placeholder="http://www.openbi.com.cn/user/api", v-model="paramsData.filepath")
     .data-footer
       .bottom-button(v-if="editData", @click="editSourceData") 修改
       .bottom-button.confirm(v-else, @click="createNewData") 添加

@@ -50,7 +50,7 @@ export default {
   methods: {
     changeText (val) {
       if (!val) {
-        this.chartData.text = '北京开维创'
+        this.chartData.text = '北京格胜'
       }
     }
   },

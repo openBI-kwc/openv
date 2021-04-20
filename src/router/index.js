@@ -332,7 +332,7 @@ const vueRouter = new Router({
 })
 const sysSetting = Storage.get('System-Setting')
 const documentTitle = {
-  sysname: sysSetting ? JSON.parse(Utils.deBase64(sysSetting)).sysname : '开维创数维可视化平台',
+  sysname: sysSetting ? JSON.parse(Utils.deBase64(sysSetting)).sysname : '北京格胜数维可视化平台',
   notfound: '页面不存在(404)'
 }
 // 路由导航守卫RBAC权限控制

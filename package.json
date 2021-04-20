@@ -2,7 +2,7 @@
   "name": "opvdatav",
   "version": "3.9.0",
   "description": "一个基于vue和vue-cli开发的大数据可视化项目,图表库有echarts等",
-  "author": "北京开维创科技有限公司",
+  "author": "北京格胜科技有限公司",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
