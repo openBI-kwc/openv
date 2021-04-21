@@ -71,11 +71,6 @@ export default {
     upodateConf (params) {
       SET_WEBSOCKET_CONFIG(params).then((value) => {
         if (value.err) {
-          this.$toasting({
-            title: '警告',
-            type: 'error',
-            message: value.data
-          })
           return
         }
         // this.$store.dispatch('SET_SYSTEM_INFO', params)
