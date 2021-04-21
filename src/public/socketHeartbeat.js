@@ -21,9 +21,9 @@ const defaultOpt = {
   // 尝试重连的间隔时间
   reconnectTimeout: 5000,
   // ping消息值
-  pingMsg: 'Are you still alive',
+  pingMsg: 'ping',
    // 后台回应信息
-  pongMsg: 'I am still alive',
+  pongMsg: 'pong',
   repeatLimit: null
 }
 // http://www.ws-test.com/

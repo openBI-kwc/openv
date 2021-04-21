@@ -23,3 +23,7 @@ export const DEL_ATTLIST = params => http('post', '/index/setSystem/attDelete', 
 export const GET_SAFE = params => http('get', '/index/wIndex/safeGet', params)
 // 更新配置安全管理信息
 export const SET_SAFE = params => http('put', '/index/woperating/safeSet', params)
+// 获取常规设置
+export const GET_WEBSOCKET_CONFIG = params => http('get', '/websocket/Setting/index', params)
+// 更新常规设置
+export const SET_WEBSOCKET_CONFIG = params => http('put', '/websocket/Setting/set', params)

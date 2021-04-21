@@ -42,6 +42,8 @@ const Security = () => import('@views/systemSetting/Security')
 const DbBackup = () => import('@views/systemSetting/DbBackup')
 // 查看附件
 const ImgAttach = () => import('@views/systemSetting/ImgAttach')
+// websocket设置
+const WebSocketSetting = () => import('@views/systemSetting/WebSocketSetting')
 // 权限管理---------------------------------------
 // 用户管理
 const UserManage = () => import('@views/authManage/UserManage')
@@ -193,6 +195,15 @@ const vueRouter = new Router({
           path: '/imageattach',
           name: 'imageattach',
           component: ImgAttach,
+          meta: {
+            keepAlive: true,
+            docTitle: 'sysname'
+          }
+        },
+        {
+          path: '/websocket',
+          name: 'websocket',
+          component: WebSocketSetting,
           meta: {
             keepAlive: true,
             docTitle: 'sysname'
