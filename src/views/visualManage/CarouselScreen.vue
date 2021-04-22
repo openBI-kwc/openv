@@ -359,7 +359,7 @@ export default {
         this.carouselList = value.data.list.map(item => {
           item.checked = false
           const isproduction = process.env.NODE_ENV === 'production'
-          if (!isproduction) item.devlink = '/' + new URL(item.crLink).hash
+          if (!isproduction) item.devlink = '/' + new URL('http://localhost' + item.link).hash
           return item
         })
         this.total = value.data.total

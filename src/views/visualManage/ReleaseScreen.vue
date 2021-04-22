@@ -143,7 +143,8 @@ export default {
         this.releaseList = value.data.map(item => {
           item.checked = false
           const isproduction = process.env.NODE_ENV === 'production'
-          if (!isproduction) item.devlink = '/' + new URL(item.link).hash
+          console.log(item)
+          if (!isproduction) item.devlink = '/' + new URL('http://localhost' + item.link).hash
           return item
         })
         this.total = value.total

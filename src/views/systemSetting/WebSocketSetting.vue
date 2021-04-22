@@ -52,7 +52,6 @@ export default {
     // 确认修改
     confirmUpdate () {
       const params = Lodash.cloneDeep(this.sysInfo)
-      console.log(params)
       let msg = {
         url: params['url']
       }
