@@ -30,7 +30,7 @@ export const ADD_USERGROUP = params => http('post', '/index/woperating/roleAdd',
 // 修改用户组
 export const UPDATE_USERGROUP = params => http('put', '/index/woperating/roleUpdate', params)
 // 查询用户组
-export const QUERY_USERGROUP = params => http('get', 'index/wIndex/rolePermission', params)
+export const QUERY_USERGROUP = params => http('get', '/index/wIndex/rolePermission', params)
 //删除用户组
 export const DELETE_USERGROUP = params => http('delete', '/index/woperating/roleDel', params)
 // 登录日志列表
